@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebManager", "WebManager\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebManager.Tests", "WebManager.Tests\WebManager.Tests.csproj", "{BC1A24BA-2B78-439C-9679-29897155A9F9}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "App.Modelling", "App.Modelling\App.Modelling.modelproj", "{2F504F76-D6E7-454C-BCE7-C15D5A500BEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{BC1A24BA-2B78-439C-9679-29897155A9F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC1A24BA-2B78-439C-9679-29897155A9F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC1A24BA-2B78-439C-9679-29897155A9F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F504F76-D6E7-454C-BCE7-C15D5A500BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F504F76-D6E7-454C-BCE7-C15D5A500BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F504F76-D6E7-454C-BCE7-C15D5A500BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F504F76-D6E7-454C-BCE7-C15D5A500BEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
