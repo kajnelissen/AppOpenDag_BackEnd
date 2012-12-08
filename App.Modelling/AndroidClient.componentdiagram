@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="50802098-628d-451a-a58d-ce705336ed19" name="AndroidClient" linkedPackageId="a42f1184-200c-495e-8c33-a8ad5f7ea0cc" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="6618bf5d-e7d5-46e3-bb3e-c6c334d96449">
+      <profileInstance Id="1f053371-2653-482a-88e9-652968b58dd0" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="e07af198-60f9-42a5-8d88-f8e5a67e5e49">
+      <profileInstance Id="2b8075cc-fc34-4099-990a-3319de145504" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <componentModelHasComponents>
+      <component Id="58e59f38-49bd-4b8c-8ee9-d162fb99ffa1" name="AndroidClient" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3ebbb345-c79c-4f01-be80-93ed5bc76677" />
+      </component>
+    </componentModelHasComponents>
+  </packagedElements>
+  <package Id="a42f1184-200c-495e-8c33-a8ad5f7ea0cc" name="App.Modelling">
+    <elementDefinition Id="852fbee5-43ed-4161-ab4a-cada46817dd0" />
+  </package>
+</componentModel>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<componentDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="AndroidClient">
+  <componentModelMoniker Id="50802098-628d-451a-a58d-ce705336ed19" />
+  <nestedChildShapes>
+    <componentShape Id="fe692b34-eab6-480c-a5e7-c1cfc508450f" absoluteBounds="3.6041667461395264, 1.34375, 1.5, 0.95" customColor="161, 199, 231" whiteBoxBoundsHeight="0" whiteBoxBoundsWidth="0" blackBoxBoundsHeight="0" blackBoxBoundsWidth="0" whiteBoxTopEdgeShapesCount="0" whiteBoxRightEdgeShapesCount="0" whiteBoxBottomEdgeShapesCount="0" whiteBoxLeftEdgeShapesCount="0" blackBoxTopEdgeShapesCount="0" blackBoxRightEdgeShapesCount="0" blackBoxBottomEdgeShapesCount="0" blackBoxLeftEdgeShapesCount="0">
+      <componentMoniker Id="58e59f38-49bd-4b8c-8ee9-d162fb99ffa1" LastKnownName="AndroidClient" />
+    </componentShape>
+  </nestedChildShapes>
+</componentDiagram>

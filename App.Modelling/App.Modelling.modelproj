@@ -23,6 +23,20 @@
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
     <Folder Include="ModelDefinition\" />
+    <Content Include="AndroidClient.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AndroidClient.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>AndroidClient.componentdiagram</DependentUpon>
+    </Content>
+    <Content Include="GlobalArchitecture.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GlobalArchitecture.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>GlobalArchitecture.componentdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\App.Modelling.uml">
       <SubType>Content</SubType>
     </Content>
