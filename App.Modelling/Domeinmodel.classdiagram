@@ -115,6 +115,16 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd Id="6bd52656-17d2-4d10-96e3-503f114b52a0" name="TimeTableEntry" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="8b2e37c6-7103-4ab1-886f-db9c95e79396" name="Lower" value="*">
+                      <elementDefinition Id="02fc9795-99fe-4992-8fde-b9147206abf4" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="a8b45996-9f2e-48d8-bf1a-21fbc41787e6" name="Upper" value="*">
+                      <elementDefinition Id="d08c83ee-415e-4a24-a1e2-d573a5b5673c" />
+                    </literalString>
+                  </upperValueInternal>
                   <elementDefinition Id="f551effc-260c-4ffb-8fa0-4974c30e6d01" />
                 </memberEnd>
               </associationHasOwnedEnds>
