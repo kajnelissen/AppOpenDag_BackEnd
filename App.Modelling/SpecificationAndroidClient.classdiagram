@@ -221,7 +221,7 @@
       <class Id="71b7c351-2af9-499b-8b19-bd6e6f326e04" name="Answer" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="9666518c-cfa3-4b5f-b278-c9020f1115d2" />
         <targetEnds>
-          <association Id="c7757a2c-4018-41da-8afd-28ebe6a663da" isDerived="false" sourceEndRoleName="Answer" targetEndRoleName="Study" isLeaf="false" isAbstract="false">
+          <association Id="c7757a2c-4018-41da-8afd-28ebe6a663da" isDerived="false" sourceEndRoleName="Answer" targetEndRoleName="Study" isLeaf="false" name="- score : int" isAbstract="false">
             <classMoniker Id="cc142a71-aba3-4f0f-8ee3-07019bf45351" LastKnownName="Study" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
