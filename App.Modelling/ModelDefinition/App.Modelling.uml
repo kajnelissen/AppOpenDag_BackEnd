@@ -34,7 +34,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="bb02f44d-6328-4f7f-b075-302670e50f5a"
-              LastKnownName="Dagprogramma bekijken"
+              LastKnownName="UC1. Dagprogramma bekijken"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -73,7 +73,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="c1a504b7-eba6-46c0-b91f-764d5cbb2adc"
-              LastKnownName="Filmpje bekijken"
+              LastKnownName="UC2. Filmpje bekijken"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -112,7 +112,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="173276a7-e85c-4e2a-965b-ca8dbfb8f345"
-              LastKnownName="Studie informatie opvragen"
+              LastKnownName="UC3. Studie informatie opvragen"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -151,7 +151,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="576f3fda-a69d-4119-9d1a-5f81b5c33627"
-              LastKnownName="Studiewijzer aanroepen"
+              LastKnownName="UC5. Studiewijzer aanroepen"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -190,7 +190,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="5faf3e87-cd79-4dcb-bbde-79687505c309"
-              LastKnownName="Navigatie oproepen"
+              LastKnownName="UC4. Navigatie oproepen"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -229,7 +229,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="9dd95400-6257-4de3-90cb-5eb27b1dc59c"
-              LastKnownName="Archievements bekijken"
+              LastKnownName="UC7. Archievements bekijken"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -268,7 +268,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="35f1b41e-4dfb-4f7a-92c8-54accec21066"
-              LastKnownName="Mini game spelen"
+              LastKnownName="UC6. Mini game spelen"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -317,7 +317,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="ab92efef-0cfe-4ea2-8691-ac8dfbf16869"
-              LastKnownName="Studiewijzer aanpassen"
+              LastKnownName="UC8. Studiewijzer aanpassen"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -356,7 +356,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="c89a4309-9889-4e0e-83ad-0dd7fb93258c"
-              LastKnownName="Dagprogramma toevoegen"
+              LastKnownName="UC9 Dagprogramma toevoegen"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -395,7 +395,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="ce4137d7-324d-49c9-9075-c4eb2577a04a"
-              LastKnownName="Lokaal indeling toevoegen/ bewerken"
+              LastKnownName="UC11. Lokaal indeling toevoegen/ bewerken"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -434,7 +434,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="20d9d46f-d606-4c5b-8896-d956db566e98"
-              LastKnownName="Filmpje toevoegen"
+              LastKnownName="UC12. Filmpje toevoegen"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -473,7 +473,7 @@
             isAbstract="false">
             <useCaseMoniker
               Id="d362365d-2066-4329-9b3f-bf96708fca33"
-              LastKnownName="Dagproramma aanpassen"
+              LastKnownName="UC10. Dagproramma aanpassen"
               LastKnownLocation="App.Modelling.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -509,7 +509,7 @@
     <packageHasNamedElement>
       <useCase
         Id="bb02f44d-6328-4f7f-b075-302670e50f5a"
-        name="Dagprogramma bekijken"
+        name="UC1. Dagprogramma bekijken"
         isAbstract="false"
         isLeaf="false">
         <extendedCases>
@@ -517,7 +517,7 @@
             Id="5be51094-0e79-44c0-b3ab-3782eb3cc5ad">
             <useCaseMoniker
               Id="f2214632-eff4-4ef9-8d5d-d7dc56500988"
-              LastKnownName="Voorlichting kiezen om bij te wonen"
+              LastKnownName="UC1a. Voorlichting kiezen om bij te wonen"
               LastKnownLocation="App.Modelling.uml" />
           </extend>
         </extendedCases>
@@ -526,35 +526,35 @@
     <packageHasNamedElement>
       <useCase
         Id="c1a504b7-eba6-46c0-b91f-764d5cbb2adc"
-        name="Filmpje bekijken"
+        name="UC2. Filmpje bekijken"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="173276a7-e85c-4e2a-965b-ca8dbfb8f345"
-        name="Studie informatie opvragen"
+        name="UC3. Studie informatie opvragen"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="5faf3e87-cd79-4dcb-bbde-79687505c309"
-        name="Navigatie oproepen"
+        name="UC4. Navigatie oproepen"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="576f3fda-a69d-4119-9d1a-5f81b5c33627"
-        name="Studiewijzer aanroepen"
+        name="UC5. Studiewijzer aanroepen"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="15d9a7ed-ab29-4a80-a05c-43199a5d00fa"
-        name="Studiewijzer invullen"
+        name="UC5a. Studiewijzer invullen"
         isAbstract="false"
         isLeaf="false">
         <additions>
@@ -562,7 +562,7 @@
             Id="ad8dfb97-46b2-45ff-aaa1-2abeb4a5dbc8">
             <useCaseMoniker
               Id="576f3fda-a69d-4119-9d1a-5f81b5c33627"
-              LastKnownName="Studiewijzer aanroepen"
+              LastKnownName="UC5. Studiewijzer aanroepen"
               LastKnownLocation="App.Modelling.uml" />
           </include>
         </additions>
@@ -571,28 +571,28 @@
     <packageHasNamedElement>
       <useCase
         Id="9dd95400-6257-4de3-90cb-5eb27b1dc59c"
-        name="Archievements bekijken"
+        name="UC7. Archievements bekijken"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="35f1b41e-4dfb-4f7a-92c8-54accec21066"
-        name="Mini game spelen"
+        name="UC6. Mini game spelen"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="ab92efef-0cfe-4ea2-8691-ac8dfbf16869"
-        name="Studiewijzer aanpassen"
+        name="UC8. Studiewijzer aanpassen"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="11b02f79-d035-45b9-9bc5-e876328d0081"
-        name="Vraag toevoegen"
+        name="UC8a. Vraag toevoegen"
         isAbstract="false"
         isLeaf="false">
         <extendedCases>
@@ -600,7 +600,7 @@
             Id="1f5a1842-c91a-4746-9a42-5a4aec2d500d">
             <useCaseMoniker
               Id="ab92efef-0cfe-4ea2-8691-ac8dfbf16869"
-              LastKnownName="Studiewijzer aanpassen"
+              LastKnownName="UC8. Studiewijzer aanpassen"
               LastKnownLocation="App.Modelling.uml" />
           </extend>
         </extendedCases>
@@ -609,7 +609,7 @@
     <packageHasNamedElement>
       <useCase
         Id="e89e03d5-51cc-49dc-95ef-582d802047ec"
-        name="Vraag verwijderen"
+        name="UC8b. Vraag verwijderen"
         isAbstract="false"
         isLeaf="false">
         <extendedCases>
@@ -617,7 +617,7 @@
             Id="421fdce8-8f4f-4454-a936-1a061cbc5591">
             <useCaseMoniker
               Id="ab92efef-0cfe-4ea2-8691-ac8dfbf16869"
-              LastKnownName="Studiewijzer aanpassen"
+              LastKnownName="UC8. Studiewijzer aanpassen"
               LastKnownLocation="App.Modelling.uml" />
           </extend>
         </extendedCases>
@@ -639,7 +639,7 @@
     <packageHasNamedElement>
       <useCase
         Id="f2214632-eff4-4ef9-8d5d-d7dc56500988"
-        name="Voorlichting kiezen om bij te wonen"
+        name="UC1a. Voorlichting kiezen om bij te wonen"
         isAbstract="false"
         isLeaf="false">
         <additions>
@@ -663,30 +663,64 @@
     <packageHasNamedElement>
       <useCase
         Id="c89a4309-9889-4e0e-83ad-0dd7fb93258c"
-        name="Dagprogramma toevoegen"
+        name="UC9 Dagprogramma toevoegen"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="ce4137d7-324d-49c9-9075-c4eb2577a04a"
-        name="Lokaal indeling toevoegen/ bewerken"
+        name="UC11. Lokaal indeling toevoegen/ bewerken"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="20d9d46f-d606-4c5b-8896-d956db566e98"
-        name="Filmpje toevoegen"
+        name="UC12. Filmpje toevoegen"
         isAbstract="false"
         isLeaf="false" />
     </packageHasNamedElement>
     <packageHasNamedElement>
       <useCase
         Id="d362365d-2066-4329-9b3f-bf96708fca33"
-        name="Dagproramma aanpassen"
+        name="UC10. Dagproramma aanpassen"
         isAbstract="false"
         isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="77425ee0-b9e7-45b5-85a4-2fe08807ea30"
+        name="UC8c. Vraag bewerken"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="b9196fe1-24f1-48e3-88d9-b593579925bb">
+            <useCaseMoniker
+              Id="ab92efef-0cfe-4ea2-8691-ac8dfbf16869"
+              LastKnownName="UC8. Studiewijzer aanpassen"
+              LastKnownLocation="App.Modelling.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2086beae-b173-4505-8f2f-60823c53e685"
+        name="UC10a. Dagprogramma verwijderen"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="f3a2df22-f32c-44d5-80d5-86747ae49cb3">
+            <useCaseMoniker
+              Id="d362365d-2066-4329-9b3f-bf96708fca33"
+              LastKnownName="UC10. Dagproramma aanpassen"
+              LastKnownLocation="App.Modelling.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
