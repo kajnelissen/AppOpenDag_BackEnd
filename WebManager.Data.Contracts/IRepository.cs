@@ -36,13 +36,13 @@ namespace WebManager.Data.Contracts
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="entity"></param>
-        void Remove(T entity);
+        /// <param name="newEntity"></param>
+        void Add(T newEntity);
 
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="newEntity"></param>
-        void Add(T newEntity);
+        /// <param name="entity"></param>
+        void Remove(T entity);
     }
 }
