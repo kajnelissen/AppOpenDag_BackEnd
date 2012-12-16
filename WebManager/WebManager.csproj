@@ -162,12 +162,22 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\DataController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\Answer.cs" />
+    <Compile Include="Models\NavigationRoute.cs" />
+    <Compile Include="Models\NavigationTrack.cs" />
+    <Compile Include="Models\Question.cs" />
+    <Compile Include="Models\Study.cs" />
+    <Compile Include="Models\StudyInformation.cs" />
+    <Compile Include="Models\Survey.cs" />
+    <Compile Include="Models\TimeTable.cs" />
+    <Compile Include="Models\TimeTableEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -287,6 +297,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WebManager.Data.Contracts\WebManager.Data.Contracts.csproj">
+      <Project>{ebd5817e-63bb-45a5-af33-bdb70d4f9c56}</Project>
+      <Name>WebManager.Data.Contracts</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

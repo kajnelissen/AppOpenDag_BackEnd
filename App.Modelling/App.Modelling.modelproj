@@ -22,7 +22,42 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" Condition="'$(VSToolsPath)' != ''" />
   <ItemGroup>
+    <Content Include="SpecificatiemodelServer.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SpecificatiemodelServer.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SpecificatiemodelServer.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="SpecificationAndroidClient.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SpecificationAndroidClient.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SpecificationAndroidClient.classdiagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
+    <Content Include="AndroidClient.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AndroidClient.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>AndroidClient.componentdiagram</DependentUpon>
+    </Content>
+    <Content Include="Domeinmodel.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Domeinmodel.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Domeinmodel.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="GlobalArchitecture.componentdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GlobalArchitecture.componentdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>GlobalArchitecture.componentdiagram</DependentUpon>
+    </Content>
     <Content Include="ModelDefinition\App.Modelling.uml">
       <SubType>Content</SubType>
     </Content>
