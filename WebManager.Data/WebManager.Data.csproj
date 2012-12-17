@@ -51,6 +51,10 @@
       <Project>{ebd5817e-63bb-45a5-af33-bdb70d4f9c56}</Project>
       <Name>WebManager.Data.Contracts</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WebManager\WebManager.csproj">
+      <Project>{e680a213-8d40-4612-9f02-dc4bbc888e14}</Project>
+      <Name>WebManager</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />

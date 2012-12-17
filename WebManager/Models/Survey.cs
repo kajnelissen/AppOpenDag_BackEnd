@@ -17,5 +17,7 @@ namespace WebManager.Models
 
         [Required]
         public bool Active { get; set; }
+
+        public virtual ICollection<Question> Questions { get; set; }
     }
 }

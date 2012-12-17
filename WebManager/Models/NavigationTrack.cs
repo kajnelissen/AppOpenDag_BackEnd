@@ -11,6 +11,8 @@ namespace WebManager.Models
     {
         public int Id { get; set; }
 
-        public int
+        public int RouteId { get; set; }
+
+        public NavigationRoute Route { get; set; }
     }
 }
