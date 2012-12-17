@@ -12,7 +12,7 @@ namespace WebManager.Data
     /// Generic repository class
     /// </summary>
     /// <typeparam name="T">Type to which the repository is associated</typeparam>
-    public class EFRepository<T> : IRepository<T> where T : class
+    public class EFRepository<T> : IRepository<T> where T : class, IEntity
     {
         protected DbContext DbContext { get; set; }
         protected DbSet<T> DbSet { get; set; }
@@ -60,21 +60,7 @@ namespace WebManager.Data
         /// <returns></returns>
         public T GetById(int id)
         {
-            return this.;
-            var itemParameter = Expression.Parameter(typeof(T), "item");
-            var whereExpression = Expression.Lambda<Func<T, bool>>
-                (
-                    Expression.Equal(
-                        Expression.Property(
-                            itemParameter,
-                            "Id"
-                            ),
-                        Expression.Constant(id)
-                        ),
-                    new[] { itemParameter }
-                );
-            var table = this.DbContext.GetTable<T>();
-            return table.Where(whereExpression).Single();
+            return this.DbSet.Where(t => t.Id == id).Single();
         }
 
         /// <summary>
@@ -83,7 +69,7 @@ namespace WebManager.Data
         /// <param name="newEntity"></param>
         public void Add(T newEntity)
         {
-            
+            this.DbSet.Add(newEntity);
         }
 
         /// <summary>
@@ -92,7 +78,7 @@ namespace WebManager.Data
         /// <param name="entity"></param>
         public void Remove(T entity)
         {
-            
+            this.DbSet.Remove(entity);
         }
     }
 }

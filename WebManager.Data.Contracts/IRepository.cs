@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace WebManager.Data.Contracts
 {
@@ -11,7 +10,7 @@ namespace WebManager.Data.Contracts
     /// 
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public interface IRepository<T> where T : class
+    public interface IRepository<T> where T : class, IEntity
     {
         /// <summary>
         /// 
