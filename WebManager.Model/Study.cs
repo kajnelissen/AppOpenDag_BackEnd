@@ -5,7 +5,7 @@ using System.Web;
 using WebManager.Data.Contracts;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebManager.Models
+namespace WebManager.Model
 {
     public class Study : IEntity
     {

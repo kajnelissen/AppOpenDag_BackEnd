@@ -170,16 +170,6 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
-    <Compile Include="Models\Answer.cs" />
-    <Compile Include="Models\AppDbContext.cs" />
-    <Compile Include="Models\NavigationRoute.cs" />
-    <Compile Include="Models\NavigationTrack.cs" />
-    <Compile Include="Models\Question.cs" />
-    <Compile Include="Models\Study.cs" />
-    <Compile Include="Models\StudyInformation.cs" />
-    <Compile Include="Models\Survey.cs" />
-    <Compile Include="Models\TimeTable.cs" />
-    <Compile Include="Models\TimeTableEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

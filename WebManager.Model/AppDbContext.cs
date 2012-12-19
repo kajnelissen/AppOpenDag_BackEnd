@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Data.Entity;
 
-namespace WebManager.Models
+namespace WebManager.Model
 {
     public class AppDbContext : DbContext
     {

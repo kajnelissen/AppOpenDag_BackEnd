@@ -5,21 +5,19 @@ using System.Web;
 using WebManager.Data.Contracts;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebManager.Models
+namespace WebManager.Model
 {
-    public class StudyInformation : IEntity
+    public class Survey : IEntity
     {
         public int Id { get; set; }
 
         [Required]
         [StringLength(50, MinimumLength = 1)]
-        public string Title { get; set; }
+        public string Name { get; set; }
 
         [Required]
-        public string Content { get; set; }
+        public bool Active { get; set; }
 
-        public int StudyId { get; set; }
-
-        public Study Study { get; set; }
+        public virtual ICollection<Question> Questions { get; set; }
     }
 }

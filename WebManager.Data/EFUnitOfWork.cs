@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using WebManager.Data.Contracts;
-using WebManager.Models;
+using WebManager.Model;
 
 namespace WebManager.Data
 {

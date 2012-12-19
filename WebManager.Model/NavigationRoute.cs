@@ -5,15 +5,16 @@ using System.Web;
 using WebManager.Data.Contracts;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebManager.Models
+namespace WebManager.Model
 {
-    public class TimeTable : IEntity
+    public class NavigationRoute : IEntity
     {
         public int Id { get; set; }
 
         [Required]
-        public DateTime Date { get; set; }
+        [StringLength(30, MinimumLength=1)]
+        public string Name { get; set; }
 
-        public virtual ICollection<TimeTableEntry> TimeTableEntries { get; set; }
+        public virtual ICollection<NavigationTrack> Tracks { get; set; }
     }
 }

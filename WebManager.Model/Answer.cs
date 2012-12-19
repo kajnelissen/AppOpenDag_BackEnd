@@ -5,7 +5,7 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using WebManager.Data.Contracts;
 
-namespace WebManager.Models
+namespace WebManager.Model
 {
     /// <summary>
     /// 
