@@ -754,3 +754,217 @@ tr.pager td {
             margin: 0;
         }
 }
+
+@font-face {
+    font-family: young;
+    src: url('../fonts/young.ttf');
+}
+
+.form-container {
+    background-color: #d8e7e0;
+}
+
+form {
+    float: left;
+}
+
+label {
+    font-weight: bold;
+    line-height: 2em;
+    color: #000;
+    display: block;
+    float: left;
+}
+
+input {
+    line-height: 2em;
+    height: 2em;
+    border: 1px solid #aaa;
+    display: block;
+    float: left;
+}
+
+input[type=submit] {
+    text-align: center;
+    background-color: #359668;
+    color: #fff;
+    font: bold 1em/1.6em young;
+    border-color: #1b6f47;
+}
+
+textarea {
+    display: block;
+    float: left;
+    line-height: 2em;
+    border: 1px solid #aaa;
+    resize: none;
+}
+
+label, input, textarea {
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+input:after, textarea:after {
+    clear: both;
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus {
+    border-color: #000;
+}
+
+.form-help-panel {
+    background-color: #81c3a4;
+    float: left;
+}
+
+.form-help-panel button {
+    float: left;
+    color: #fff;
+    font: bold 1em/1.6em young;
+    background-color: #359668;
+    cursor: pointer;
+    border: none;
+}
+
+.form-help-panel button:hover {
+    background-color: #135b39;
+}
+
+@media only screen and (min-width: 1366px) {
+
+	.form-container {
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    form {
+        width: 580px;
+    }
+
+    label {
+        font-weight: bold;
+        line-height: 2em;
+        width: 160px;
+        padding-left: 38px;
+    }
+
+    input {
+        line-height: 2em;
+        height: 2em;
+        width: 340px;
+        display: block;
+        float: left;
+        padding: 5px 20px;
+    }
+
+    input[type=submit] {
+        margin-left: 198px;
+        font: bold 1em/1.6em young;
+        width: 380px;
+    }
+
+    textarea {
+        width: 340px;
+        height: 120px;
+        padding: 5px 20px;
+        line-height: 2em;
+        border: 1px solid #aaa;
+    }
+
+    label, input, textarea {
+        margin-bottom: 1em;
+        border-radius: 5px;
+    }
+
+    input:after, textarea:after {
+        clear: both;
+    }
+
+    input:hover, input:focus, textarea:hover, textarea:focus {
+        border-color: #000;
+    }
+
+    .form-help-panel {
+        width: 260px;
+        border-radius: 5px;
+        padding: 20px;
+        margin-left: 18px;
+    }
+
+    .form-help-panel button {
+        padding: 3px 8px;
+        margin: 5px;
+        border-radius: 3px;
+    }
+	
+}
+
+@media only screen and (min-width: 1160px) and (max-width: 1365px) {
+
+	.form-container {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    form {
+        width: 550px;
+    }
+
+    label {
+        font-weight: bold;
+        line-height: 2em;
+        width: 140px;
+        padding-left: 18px;
+    }
+
+    input {
+        line-height: 2em;
+        height: 2em;
+        width: 350px;
+        display: block;
+        float: left;
+        padding: 5px 20px;
+    }
+
+    input[type=submit] {
+        margin-left: 158px;
+        font: bold 1em/1.6em young;
+        width: 390px;
+    }
+
+    textarea {
+        width: 350px;
+        height: 120px;
+        padding: 5px 20px;
+        line-height: 2em;
+        border: 1px solid #aaa;
+    }
+
+    label, input, textarea {
+        margin-bottom: 1em;
+        border-radius: 5px;
+    }
+
+    input:after, textarea:after {
+        clear: both;
+    }
+
+    input:hover, input:focus, textarea:hover, textarea:focus {
+        border-color: #000;
+    }
+
+    .form-help-panel {
+        width: 240px;
+        border-radius: 5px;
+        padding: 15px;
+        margin-left: 18px;
+    }
+
+    .form-help-panel button {
+        padding: 3px 8px;
+        margin: 5px;
+        border-radius: 3px;
+    }
+
+}

@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "newStudy";
+}
+
+<h2>newStudy</h2>
+
+Studie: @Html.TextBox("tbStudy", null, new { cols = "50", rows = "1" }) <br />
+Afkorting: @Html.TextBox("tbShortName", null, new { cols = "50", rows = "1" })<br />
+
+<button onclick="location.href='@Url.Action("AddStudy", "Study")';return true;">Toevoegen</button>

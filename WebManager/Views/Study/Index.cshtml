@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@*Studie: @Html.TextBox("tbStudy", null, new { cols = "50", rows = "1" }) <br />
+Afkorting: @Html.TextBox("tbShortName", null, new { cols = "50", rows = "1" })<br />
+
+<button type="button" onclick="location.href='@Url.Action("AddStudy", "Study")';return true;">Add</button>*@
+
+@*<select id="Studie" name="Studie">
+	@for(int index = 0; index < @ViewBag.Studies.Count; index++)
+    {
+        <option value="@index">@ViewBag.Studies[index].ToString()</option>
+    }
+</select>*@
+
+@if(ViewBag.Studies.Count != 0)
+{
+    <table>
+    @for (int index = 0; index < ViewBag.Studies.Count; index++)
+    {
+        <TR> <TD>@ViewBag.Studies[index].Id</TD>
+            <TD>@ViewBag.Studies[index].Name</TD> 
+            <TD>@ViewBag.Studies[index].ShortName</TD> 
+            <TD><a href="">Wijzigen</a></TD> 
+            <TD><a href="">Verwijderen</a></TD></TR>
+    }
+    </table>
+}
+
+<a onclick="location.href='@Url.Action("newStudy", "Study")';return true;">Add study</a>
