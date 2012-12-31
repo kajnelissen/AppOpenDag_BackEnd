@@ -11,6 +11,16 @@ namespace WebManager.Data
     {
         private AppDbContext DbContext { get; set; }
 
+        public IRepository<Answer> Answers
+        {
+            get { return new EFRepository<Answer>(this.DbContext); }
+        }
+
+        public IRepository<Question> Questions
+        {
+            get { return new EFRepository<Question>(this.DbContext); }
+        }
+
         public IRepository<Study> Studies
         {
             get { return new EFRepository<Study>(this.DbContext); }
@@ -19,6 +29,21 @@ namespace WebManager.Data
         public IRepository<StudyInformation> StudyInfos
         {
             get { return new EFRepository<StudyInformation>(this.DbContext); }
+        }
+
+        public IRepository<Survey> Surveys
+        {
+            get { return new EFRepository<Survey>(this.DbContext); }
+        }
+
+        public IRepository<TimeTable> TimeTables
+        {
+            get { return new EFRepository<TimeTable>(this.DbContext); }
+        }
+
+        public IRepository<TimeTableEntry> TimeTableEntries
+        {
+            get { return new EFRepository<TimeTableEntry>(this.DbContext); }
         }
 
         public EFUnitOfWork()

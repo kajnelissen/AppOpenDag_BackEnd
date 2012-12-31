@@ -52,9 +52,9 @@
       <Project>{ebd5817e-63bb-45a5-af33-bdb70d4f9c56}</Project>
       <Name>WebManager.Data.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WebManager\WebManager.csproj">
-      <Project>{e680a213-8d40-4612-9f02-dc4bbc888e14}</Project>
-      <Name>WebManager</Name>
+    <ProjectReference Include="..\WebManager.Model\WebManager.Model.csproj">
+      <Project>{651f7b2c-8f60-4f26-852b-80e64f50706b}</Project>
+      <Name>WebManager.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
