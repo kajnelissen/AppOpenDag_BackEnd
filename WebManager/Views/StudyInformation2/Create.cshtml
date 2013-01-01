@@ -1,169 +1,66 @@
-﻿<head>
-    <script language="javascript" type="text/javascript">
-     /**
-     * BB Code insertions
-     */
-    $(document).ready(function() {
-        $("button#bb-img").click(function(){$('#bb-post-field').insertRoundCaret('[img]', '[/img]')});
-        $("button#bb-b").click(function(){$('#bb-post-field').insertRoundCaret('[b]', '[/b]')});
-        $("button#bb-i").click(function(){$('#bb-post-field').insertRoundCaret('[i]', '[/i]')});
-        $("button#bb-u").click(function(){$('#bb-post-field').insertRoundCaret('[u]', '[/u]')});
-        $("button#bb-url").click(function(){$('#bb-post-field').insertRoundCaret('[url=linkhier]', '[/url]')});
-        $("button#bb-list").click(function(){$('#bb-post-field').insertRoundCaret('[list]', '[/list]')});
-        $("button#bb-asterisk").click(function(){$('#bb-post-field').insertAtCaret('[*]')});
-        $("button#bb-color").click(function(){$('#bb-post-field').insertRoundCaret('[color=kleur]', '[/color]')});
-        $("button#bb-quote").click(function(){$('#bb-post-field').insertRoundCaret('[quote=auteur]', '[/quote]')});
-    });
-
-    /**
-     * Inserts specified text at caret position.
-     * 
-     * param tagName Text to insert
-     */
-    $.fn.insertAtCaret = function (tagName) {
-	    return this.each(function(){
-		    if (document.selection) {
-			    //IE support
-			    this.focus();
-			    sel = document.selection.createRange();
-			    sel.text = tagName;
-			    this.focus();
-		    }else if (this.selectionStart || this.selectionStart == '0') {
-			    //MOZILLA/NETSCAPE support
-			    startPos = this.selectionStart;
-			    endPos = this.selectionEnd;
-			    scrollTop = this.scrollTop;
-			    this.value = this.value.substring(0, startPos) + tagName + this.value.substring(endPos,this.value.length);
-			    this.focus();
-			    this.selectionStart = startPos + tagName.length;
-			    this.selectionEnd = startPos + tagName.length;
-			    this.scrollTop = scrollTop;
-		    } else {
-			    this.value += tagName;
-			    this.focus();
-		    }
-	    });
-    };
-
-    /**
-     * Inserts specified tags at the start and end of
-     * a selected piece of text.
-     * 
-     * param tagStart
-     * param tagEnd
-     */
-    $.fn.insertRoundCaret = function (tagStart, tagEnd) {
-	    return this.each(function(){
-		    strStart = tagStart;
-		    strEnd = tagEnd;
-		    if (document.selection) {
-			    //IE support
-			    stringBefore = this.value;
-			    this.focus();
-			    sel = document.selection.createRange();
-			    insertstring = sel.text;
-			    fullinsertstring = strStart + sel.text + strEnd;
-			    sel.text = fullinsertstring;
-			    document.selection.empty();
-			    this.focus();
-			    stringAfter = this.value;
-			    i = stringAfter.lastIndexOf(fullinsertstring);
-			    range = this.createTextRange();
-			    numlines = stringBefore.substring(0,i).split("\n").length;
-			    i = i+3-numlines+tagName.length;
-			    j = insertstring.length;
-			    range.move("character",i);
-			    range.moveEnd("character",j);
-			    range.select();
-		    }else if (this.selectionStart || this.selectionStart == '0') {
-			    //MOZILLA/NETSCAPE support
-			    startPos = this.selectionStart;
-			    endPos = this.selectionEnd;
-			    scrollTop = this.scrollTop;
-			    this.value = this.value.substring(0, startPos) + strStart + this.value.substring(startPos,endPos) + strEnd + this.value.substring(endPos,this.value.length);
-			    this.focus();
-			    this.selectionStart = startPos + strStart.length ;
-			    this.selectionEnd = endPos + strStart.length;
-			    this.scrollTop = scrollTop;
-		    } else {
-			    this.value += strStart + strEnd;
-			    this.focus();
-		    }
-	    });
-    };
-    </script>
-</head>
-
-@model WebManager.Model.StudyInformation
-
+﻿@model WebManager.Model.StudyInformation
 @{
     ViewBag.Title = "Create";
 }
 
-<h2>Create</h2>
+<!DOCTYPE html>
 
-@using (Html.BeginForm()) {
-    @Html.ValidationSummary(true)
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head runat="server">
+        <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
+        <script type="text/javascript">
+            document.write(["\<script type='text/javascript' src='",
+            ("https:" == document.location.protocol) ? "https://" : "http://",
+            "ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'>\<\/script>"].join(''));
+        </script>
+        <script src="jquery-1.7.1.js"></script>
 
-    <fieldset>
-        <legend>StudyInformation</legend>
+        <title></title>
+    </head>
+    <body>
+        <script type="text/javascript" src="~/Scripts/AddBBCode.js"></script>
+        
+        <div class="form-container clearfix">
+            @Html.ValidationSummary(true)
+            <form method="post">
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.Title)
+                </div>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.Title)
+                    @Html.ValidationMessageFor(model => model.Title)
+                </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Title)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Title)
-            @Html.ValidationMessageFor(model => model.Title)
-        </div>
-
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Content)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Content)
-            @Html.ValidationMessageFor(model => model.Content)
-        </div>
-
-        <div class="editor-label">
-            @Html.LabelFor(model => model.StudyId, "Study")
-        </div>
-        <div class="editor-field">
-            @Html.DropDownList("StudyId", String.Empty)
-            @Html.ValidationMessageFor(model => model.StudyId)
-        </div>
-
-        <p>
-            <input type="submit" value="Create" />
-        </p>
-    </fieldset>
-}
-
-<div>
-    @Html.ActionLink("Back to List", "Index")
-</div>
-
-@section Scripts {
-    @Scripts.Render("~/bundles/jqueryval")
-}
-
-<div class="form-container clearfix">
-    <form method="post">
-        <label>Titel</label>
-            <input type="text" />
-        <label>Bericht</label>
-            <textarea id="bb-post-field"></textarea>
-        <input type="submit" value="Plaats reactie" />
-     </form>
-    <div class="form-help-panel clearfix">
-        <h3>BB Code</h3>
-            <button title="Plaatje" id="bb-img">img</button>
-            <button id="bb-b">b</button>
-            <button id="bb-i">i</button>
-            <button id="bb-u">u</button>
-            <button id="bb-url">url</button>
-            <button id="bb-list">list</button>
-            <button id="bb-asterisk">*</button>
-            <button id="bb-color">color</button>
-            <button id="bb-quote">quote</button>
-    </div>
-</div>
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.Content)
+                </div>
+                <div class="editor-field">
+                    <script type="text/javascript" src="AddBBCode.js"></script>
+                    @Html.TextAreaFor(model => model.Content,new { id="bb-post-field"})
+                    @Html.ValidationMessageFor(model => model.Content)   
+                </div>
+                <div class="editor-label">
+                    @Html.LabelFor(model => model.StudyId, "Study")
+                </div>
+                <div class="editor-field">
+                    @Html.DropDownList("StudyId", String.Empty)
+                    @Html.ValidationMessageFor(model => model.StudyId)
+                </div>
+                <input type="submit" value="Plaats reactie" />
+             </form>
+            <div class="form-help-panel clearfix">
+                <h3>BB Code</h3>
+                    <button title="Plaatje" id="bb-img">img</button>
+                    <button id="bb-b">b</button>
+                    <button id="bb-i">i</button>
+                    <button id="bb-u">u</button>
+                    <button id="bb-url">url</button>
+                    <button id="bb-list">list</button>
+                    <button id="bb-asterisk">*</button>
+                    <button id="bb-color">color</button>
+                    <button id="bb-quote">quote</button>
+            </div>
+        </div>    
+    </body>
+</html>

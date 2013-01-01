@@ -175,6 +175,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\AddBBCode.js" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -286,7 +287,6 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\StudyInformation\Index.cshtml" />
     <Content Include="Views\Study\Index.cshtml" />
     <Content Include="Views\Study\newStudy.cshtml" />
     <Content Include="Views\Study2\Index.cshtml" />
@@ -299,6 +299,11 @@
     <Content Include="Views\StudyInformation2\Create.cshtml" />
     <Content Include="Views\StudyInformation2\Edit.cshtml" />
     <Content Include="Views\StudyInformation2\Delete.cshtml" />
+    <Content Include="Views\StudyInformation\Index.cshtml" />
+    <Content Include="Views\StudyInformation\Details.cshtml" />
+    <Content Include="Views\StudyInformation\Create.cshtml" />
+    <Content Include="Views\StudyInformation\Edit.cshtml" />
+    <Content Include="Views\StudyInformation\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
