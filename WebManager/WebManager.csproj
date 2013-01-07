@@ -163,10 +163,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ActivityController.cs" />
     <Compile Include="Controllers\api\StudyController.cs" />
+    <Compile Include="Controllers\api\StudyInformationController.cs" />
+    <Compile Include="Controllers\api\TimeTableController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\StudyController.cs" />
     <Compile Include="Controllers\StudyInformationController.cs" />
+    <Compile Include="Controllers\TimeTableController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -297,6 +301,16 @@
     <Content Include="Views\StudyInformation\Create.cshtml" />
     <Content Include="Views\StudyInformation\Edit.cshtml" />
     <Content Include="Views\StudyInformation\Delete.cshtml" />
+    <Content Include="Views\TimeTable\Index.cshtml" />
+    <Content Include="Views\TimeTable\Details.cshtml" />
+    <Content Include="Views\TimeTable\Create.cshtml" />
+    <Content Include="Views\TimeTable\Edit.cshtml" />
+    <Content Include="Views\TimeTable\Delete.cshtml" />
+    <Content Include="Views\Activity\Index.cshtml" />
+    <Content Include="Views\Activity\Details.cshtml" />
+    <Content Include="Views\Activity\Create.cshtml" />
+    <Content Include="Views\Activity\Edit.cshtml" />
+    <Content Include="Views\Activity\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
