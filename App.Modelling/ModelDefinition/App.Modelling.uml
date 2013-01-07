@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner"
   dslVersion="1.0.0.0"
   Id="852fbee5-43ed-4161-ab4a-cada46817dd0"
   name="App.Modelling" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
@@ -192,17 +192,17 @@
                 </relationshipOwnedElementsInternal>
               </connector>
               <connector
-                Id="cbc908f7-9a46-4ba7-ad2f-21f71a26c607"
+                Id="c29896e0-f2d0-43e5-8cdd-78832b6d2fab"
                 isLeaf="false"
                 isStatic="false">
                 <partMoniker
-                  Id="d8e94a1c-9c70-4119-9fa9-0e6a67fd818a"
-                  LastKnownName="API"
+                  Id="a23b9f4f-980a-454c-92de-577f009d3c89"
+                  LastKnownName="Models"
                   LastKnownLocation="App.Modelling.uml" />
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="7a816dc2-a64f-44e4-a5ac-b4541c4e406f">
+                      Id="ebda44bc-73fc-43e4-aae3-05452ca35c25">
                       <portWithPart>
                         <requiredInterfaceMoniker
                           Id="3a51d23a-9853-44eb-80b7-25621518f4c7"
@@ -213,11 +213,11 @@
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="58376869-1ddd-486b-be5a-e31c54010ce7">
+                      Id="8f01a23d-a5ba-4d19-b0f8-54e533ce5783">
                       <portWithPart>
                         <providedInterfaceMoniker
-                          Id="ff9688a0-bdb1-495b-ba4e-f4d698835510"
-                          LastKnownName="Port1"
+                          Id="de2ac789-b641-486e-99cf-775c6d53479f"
+                          LastKnownName="Port2"
                           LastKnownLocation="App.Modelling.uml" />
                       </portWithPart>
                     </connectorEnd>
@@ -958,7 +958,7 @@
             isComposite="true">
             <targetNamedElementsInternal>
               <connector
-                Id="ed812b96-49f4-4efc-9450-64801120d7ae"
+                Id="629042b8-0fbd-4356-bb3b-936ef2c35213"
                 isLeaf="false"
                 isStatic="false">
                 <partMoniker
@@ -968,11 +968,11 @@
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="ab813b74-8adc-4113-81ae-d929bbf82b06" />
+                      Id="fa61f083-b354-4c26-99ff-3fd06a5c413f" />
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="499c0418-9f92-474e-84b7-266ef7b09e75" />
+                      Id="54f4c8fe-233f-43f0-af50-ecbc7bdd36d6" />
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
               </connector>
@@ -996,7 +996,7 @@
             isComposite="true">
             <targetNamedElementsInternal>
               <connector
-                Id="9ed2dad6-f25f-4215-92d4-c8abc061c0e0"
+                Id="80947966-4d06-449c-ab15-739b515cccd8"
                 isLeaf="false"
                 isStatic="false">
                 <partMoniker
@@ -1006,11 +1006,11 @@
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="d72243c1-91ed-4c1f-9e6b-0e5c91f29264" />
+                      Id="e55c4709-5afa-483c-9cdc-a9de4204a145" />
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="c8e1b331-aea7-4643-ad93-30068832c8c3" />
+                      Id="93c87708-29f1-4db2-b9d4-bd088ab3f534" />
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
               </connector>
@@ -1034,7 +1034,7 @@
             isComposite="true">
             <targetNamedElementsInternal>
               <connector
-                Id="406d1760-7788-4aea-b9d4-357efc20a697"
+                Id="20d4ecb8-6cce-4852-8aa0-ddb448a64c5c"
                 isLeaf="false"
                 isStatic="false">
                 <partMoniker
@@ -1044,11 +1044,11 @@
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="ac3eeb59-4819-48a7-95c3-6cd88b47045e" />
+                      Id="e8b8e18b-84d2-44c6-949a-18f2a40673b8" />
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="8d6835f4-0ff5-49f1-b2e5-a205de4d2f20" />
+                      Id="1333d0cb-d392-4959-be4d-5d46627b17e8" />
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
               </connector>
@@ -1072,7 +1072,7 @@
             isComposite="true">
             <targetNamedElementsInternal>
               <connector
-                Id="3a25c354-1ccb-4109-b619-cd4b0b1d476a"
+                Id="1fd0406d-8c7a-475f-8216-b82ee5c26661"
                 isLeaf="false"
                 isStatic="false">
                 <partMoniker
@@ -1082,11 +1082,11 @@
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="408407ce-f9a1-42a2-ae56-adbb4127977e" />
+                      Id="fea3a394-5cf1-4e03-8a0a-df38cf0f203d" />
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="17ff8212-70a3-4401-91e2-db62d3f216a7" />
+                      Id="cc7344aa-34f0-47eb-ab8c-52ef65eeaf4d" />
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
               </connector>
@@ -1205,7 +1205,7 @@
             isComposite="true">
             <targetNamedElementsInternal>
               <connector
-                Id="cc3c2fef-4ed6-4ee9-936f-c3889985e08f"
+                Id="30fb4f68-a5c3-43d4-b977-0abe326bbafc"
                 isLeaf="false"
                 isStatic="false">
                 <partMoniker
@@ -1215,11 +1215,11 @@
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="94914205-2c90-40a3-8f5c-e3262ea5c7f9" />
+                      Id="878590bb-8094-4852-9449-836b72e34201" />
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
                     <connectorEnd
-                      Id="ee92975d-e6b2-4df3-96a7-1a4a2d81d864" />
+                      Id="c2b9f37e-a694-438b-b4ce-0a8ddfa56917" />
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
               </connector>

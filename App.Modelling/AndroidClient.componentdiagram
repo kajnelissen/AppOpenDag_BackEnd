@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="50802098-628d-451a-a58d-ce705336ed19" name="AndroidClient" linkedPackageId="a42f1184-200c-495e-8c33-a8ad5f7ea0cc" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="50802098-628d-451a-a58d-ce705336ed19" name="AndroidClient" linkedPackageId="a42f1184-200c-495e-8c33-a8ad5f7ea0cc" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
   <packagedElements>
     <componentModelHasComponents>
       <component Id="2d1a72e9-8a53-4c32-9124-3fd4a6acdff9" name="Server" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -21,21 +21,21 @@
           <part Id="71e47cec-1247-480e-a447-fde303b95f64" name="Survey" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
             <elementDefinition Id="da18f2a9-68ce-4b23-90c3-25c8ccfbef7f" />
             <targetNamedElementsInternal>
-              <connector Id="392f0926-f5c7-4ee6-aee8-72cb627355a2" isLeaf="false" isStatic="false">
+              <connector Id="bfa095ec-62e6-450a-89f3-ffa4efdd3440" isLeaf="false" isStatic="false">
                 <partMoniker Id="ea436401-4a6c-4e9f-8f60-98e72436d777" LastKnownName="Gate" />
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="3e6b8350-dd70-4d6e-8973-146c24dad997">
-                      <elementDefinition Id="ab813b74-8adc-4113-81ae-d929bbf82b06" />
+                    <connectorEnd Id="680c7654-848f-4200-9740-17f30c99d53c">
+                      <elementDefinition Id="fa61f083-b354-4c26-99ff-3fd06a5c413f" />
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="ba6c46c7-ecba-4f44-8329-a626d3e854e0">
-                      <elementDefinition Id="499c0418-9f92-474e-84b7-266ef7b09e75" />
+                    <connectorEnd Id="9d24267e-7832-41f8-a287-07ec868813c2">
+                      <elementDefinition Id="54f4c8fe-233f-43f0-af50-ecbc7bdd36d6" />
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
-                <elementDefinition Id="ed812b96-49f4-4efc-9450-64801120d7ae" />
+                <elementDefinition Id="629042b8-0fbd-4356-bb3b-936ef2c35213" />
               </connector>
             </targetNamedElementsInternal>
             <type_NamedElement>
@@ -45,21 +45,21 @@
           <part Id="19905b32-d63d-47c5-ae57-248577365947" name="Notification" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
             <elementDefinition Id="8f140f46-7fb3-4771-84f8-ea2deb5bab32" />
             <targetNamedElementsInternal>
-              <connector Id="d07109f5-8286-45db-a34e-764790943850" isLeaf="false" isStatic="false">
+              <connector Id="1e726e4f-8277-4ebc-8ecd-7adacdd3a056" isLeaf="false" isStatic="false">
                 <partMoniker Id="ea436401-4a6c-4e9f-8f60-98e72436d777" LastKnownName="Gate" />
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="44bab958-d82c-4aad-9600-b14c140bdb55">
-                      <elementDefinition Id="d72243c1-91ed-4c1f-9e6b-0e5c91f29264" />
+                    <connectorEnd Id="6fb18181-b34e-433e-9682-c754fac6fbff">
+                      <elementDefinition Id="e55c4709-5afa-483c-9cdc-a9de4204a145" />
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="8010f5f5-2c2f-4867-9721-0188669bcbab">
-                      <elementDefinition Id="c8e1b331-aea7-4643-ad93-30068832c8c3" />
+                    <connectorEnd Id="841510de-1a94-436e-bf47-3d62887a2a17">
+                      <elementDefinition Id="93c87708-29f1-4db2-b9d4-bd088ab3f534" />
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
-                <elementDefinition Id="9ed2dad6-f25f-4215-92d4-c8abc061c0e0" />
+                <elementDefinition Id="80947966-4d06-449c-ab15-739b515cccd8" />
               </connector>
             </targetNamedElementsInternal>
             <type_NamedElement>
@@ -69,21 +69,21 @@
           <part Id="c4ca03b4-2d12-4f1c-8c8f-88378ffaa808" name="TimeTable" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
             <elementDefinition Id="02736428-9620-49a4-9c52-591e7f331d15" />
             <targetNamedElementsInternal>
-              <connector Id="c6813d63-edf7-42b6-a5f2-d8ba17db9220" isLeaf="false" isStatic="false">
+              <connector Id="edb06064-3db5-4667-9408-b4ad55e231d6" isLeaf="false" isStatic="false">
                 <partMoniker Id="ea436401-4a6c-4e9f-8f60-98e72436d777" LastKnownName="Gate" />
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="84496ff5-6448-4841-a4e5-814e553f6c04">
-                      <elementDefinition Id="ac3eeb59-4819-48a7-95c3-6cd88b47045e" />
+                    <connectorEnd Id="58e75661-c6b5-4917-95b4-9640be0f5fb0">
+                      <elementDefinition Id="e8b8e18b-84d2-44c6-949a-18f2a40673b8" />
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="3cee2e2b-1a4d-460a-a4c0-73c86599a8de">
-                      <elementDefinition Id="8d6835f4-0ff5-49f1-b2e5-a205de4d2f20" />
+                    <connectorEnd Id="10625980-4fe4-4dcf-b2c8-fcf671f1f45f">
+                      <elementDefinition Id="1333d0cb-d392-4959-be4d-5d46627b17e8" />
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
-                <elementDefinition Id="406d1760-7788-4aea-b9d4-357efc20a697" />
+                <elementDefinition Id="20d4ecb8-6cce-4852-8aa0-ddb448a64c5c" />
               </connector>
             </targetNamedElementsInternal>
             <type_NamedElement>
@@ -93,21 +93,21 @@
           <part Id="6a717721-0696-48be-9b92-f63c0ac60575" name="Navigation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
             <elementDefinition Id="6ae849ea-d70e-45d0-bee7-393465f81aaa" />
             <targetNamedElementsInternal>
-              <connector Id="16bfa96f-e0a4-4924-b730-f98fdc80f96e" isLeaf="false" isStatic="false">
+              <connector Id="68210436-e9bd-4d70-bf95-e2f387968e73" isLeaf="false" isStatic="false">
                 <partMoniker Id="ea436401-4a6c-4e9f-8f60-98e72436d777" LastKnownName="Gate" />
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="2fe8dcca-71eb-4470-819d-914b53dd87af">
-                      <elementDefinition Id="408407ce-f9a1-42a2-ae56-adbb4127977e" />
+                    <connectorEnd Id="96921b75-b2ac-4f9e-b641-d8b22976761d">
+                      <elementDefinition Id="fea3a394-5cf1-4e03-8a0a-df38cf0f203d" />
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="5cf45936-71d8-470d-b447-ac2975ebe1d8">
-                      <elementDefinition Id="17ff8212-70a3-4401-91e2-db62d3f216a7" />
+                    <connectorEnd Id="159c236b-2124-4f72-962a-036d089fb06f">
+                      <elementDefinition Id="cc7344aa-34f0-47eb-ab8c-52ef65eeaf4d" />
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
-                <elementDefinition Id="3a25c354-1ccb-4109-b619-cd4b0b1d476a" />
+                <elementDefinition Id="1fd0406d-8c7a-475f-8216-b82ee5c26661" />
               </connector>
             </targetNamedElementsInternal>
             <type_NamedElement>
@@ -172,21 +172,21 @@
           <part Id="1ddc5cc8-d768-4272-b520-a384dc68b134" name="Information" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="true">
             <elementDefinition Id="725ebc08-0b86-40f5-b59c-170f32915da8" />
             <targetNamedElementsInternal>
-              <connector Id="05b71cfa-0f58-435e-b959-d9b30c61cf53" isLeaf="false" isStatic="false">
+              <connector Id="cbfdbd81-0028-4986-8c6e-30133c0d1d92" isLeaf="false" isStatic="false">
                 <partMoniker Id="ea436401-4a6c-4e9f-8f60-98e72436d777" LastKnownName="Gate" />
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="5b7f3eed-39b9-4da8-9fb5-0459e771fb2c">
-                      <elementDefinition Id="94914205-2c90-40a3-8f5c-e3262ea5c7f9" />
+                    <connectorEnd Id="f48fcc8c-6407-4283-8cb3-659845836808">
+                      <elementDefinition Id="878590bb-8094-4852-9449-836b72e34201" />
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="711cd287-c29b-4b5e-b18b-08141773d0e1">
-                      <elementDefinition Id="ee92975d-e6b2-4df3-96a7-1a4a2d81d864" />
+                    <connectorEnd Id="3b36b537-b9db-4564-8f9a-3d32185e689f">
+                      <elementDefinition Id="c2b9f37e-a694-438b-b4ce-0a8ddfa56917" />
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
-                <elementDefinition Id="cc3c2fef-4ed6-4ee9-936f-c3889985e08f" />
+                <elementDefinition Id="30fb4f68-a5c3-43d4-b977-0abe326bbafc" />
               </connector>
             </targetNamedElementsInternal>
             <type_NamedElement>

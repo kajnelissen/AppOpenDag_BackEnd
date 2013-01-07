@@ -1,19 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="baf7865b-a69f-4b71-be3d-7bbe3dd56554" name="Architecture" linkedPackageId="7041a296-98f2-40fd-892a-c9437d223c05" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
-  <profileInstances>
-    <packageHasProfileInstances Id="cf5a1bdf-08ba-40d2-829d-7a8934a675d9">
-      <profileInstance Id="ed9da6c8-a32a-4084-b267-3a0c39fadb8b" name="StandardProfileL2">
-        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
-      </profileInstance>
-      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="0a6c24f8-b7e0-4a20-9246-3a161309ec80">
-      <profileInstance Id="8d3ca363-c8de-4c37-9399-4f7b3d0dd5a8" name="StandardProfileL3">
-        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
-      </profileInstance>
-      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
-    </packageHasProfileInstances>
-  </profileInstances>
+<componentModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" dslVersion="1.0.0.0" Id="baf7865b-a69f-4b71-be3d-7bbe3dd56554" name="Architecture" linkedPackageId="7041a296-98f2-40fd-892a-c9437d223c05" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ComponentDesigner">
   <packagedElements>
     <componentModelHasComponents>
       <component Id="e579be10-ea93-4de6-a6ff-5153a3725fd5" name="Browser" isAbstract="false" isLeaf="false" isActiveClass="false">
@@ -88,27 +74,27 @@
                 </relationshipOwnedElementsInternal>
                 <elementDefinition Id="75e463e8-5ea2-43d8-b172-488ea81144a9" />
               </connector>
-              <connector Id="66f42dde-2eab-4458-820c-4e01d77abd89" isLeaf="false" isStatic="false">
-                <partMoniker Id="466b9a75-b229-46f1-930e-6d05fd4fa07c" LastKnownName="API" />
+              <connector Id="8a2e90f4-8010-4a0e-b3f1-5eba2ed497c4" isLeaf="false" isStatic="false">
+                <partMoniker Id="30a2c56d-5260-4c83-ae8e-aa423a52a881" LastKnownName="Models" />
                 <relationshipOwnedElementsInternal>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="199cfbc1-6838-421f-bc82-2c1fa757249d">
-                      <elementDefinition Id="7a816dc2-a64f-44e4-a5ac-b4541c4e406f" />
+                    <connectorEnd Id="26764b90-1e84-4ad7-9e27-922370fb9366">
+                      <elementDefinition Id="ebda44bc-73fc-43e4-aae3-05452ca35c25" />
                       <portWithPart>
                         <requiredInterfaceMoniker Id="e9c6367d-35b0-465c-9fa5-8d0822c2b741" LastKnownName="Port3" />
                       </portWithPart>
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                   <connectorHasConnectorEnds>
-                    <connectorEnd Id="647bcf12-0e2f-417c-bc5d-4d497a43bfa9">
-                      <elementDefinition Id="58376869-1ddd-486b-be5a-e31c54010ce7" />
+                    <connectorEnd Id="1e23b330-362d-4584-91a9-57873c0e2859">
+                      <elementDefinition Id="8f01a23d-a5ba-4d19-b0f8-54e533ce5783" />
                       <portWithPart>
-                        <providedInterfaceMoniker Id="055b03a9-765a-4b08-8453-ce0d040f323a" LastKnownName="Port1" />
+                        <providedInterfaceMoniker Id="8f34a33e-8507-437c-b45a-85987d7d896b" LastKnownName="Port2" />
                       </portWithPart>
                     </connectorEnd>
                   </connectorHasConnectorEnds>
                 </relationshipOwnedElementsInternal>
-                <elementDefinition Id="cbc908f7-9a46-4ba7-ad2f-21f71a26c607" />
+                <elementDefinition Id="c29896e0-f2d0-43e5-8cdd-78832b6d2fab" />
               </connector>
             </targetNamedElementsInternal>
             <type_NamedElement>
@@ -441,5 +427,19 @@
   </packagedElements>
   <package Id="7041a296-98f2-40fd-892a-c9437d223c05" name="App.Modelling">
     <elementDefinition Id="852fbee5-43ed-4161-ab4a-cada46817dd0" />
+    <profileInstances>
+      <packageHasProfileInstances Id="cf5a1bdf-08ba-40d2-829d-7a8934a675d9">
+        <profileInstance Id="ed9da6c8-a32a-4084-b267-3a0c39fadb8b" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="0a6c24f8-b7e0-4a20-9246-3a161309ec80">
+        <profileInstance Id="8d3ca363-c8de-4c37-9399-4f7b3d0dd5a8" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
   </package>
 </componentModel>

@@ -176,14 +176,6 @@
             <providedInterfaceShapeMoniker Id="1f0d57b4-9cf4-46d7-b4d0-9f04491242f2" />
           </nodes>
         </delegationConnector>
-        <delegationConnector edgePoints="[(5.484375 : 3.60625); (5.484375 : 3.98125); (3.96875 : 3.98125); (3.96875 : 5.109375); (4.34375 : 5.109375)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
-          <connectorMoniker Id="66f42dde-2eab-4458-820c-4e01d77abd89" />
-          <relativeChildShapes />
-          <nodes>
-            <requiredInterfaceShapeMoniker Id="46c45609-533b-4cf3-a359-b21621db7b31" />
-            <providedInterfaceShapeMoniker Id="19171ecd-250f-4150-b074-4c029a874d6b" />
-          </nodes>
-        </delegationConnector>
         <delegationConnector edgePoints="[(8.234375 : 2.98125); (8.234375 : 3.34375)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
           <connectorMoniker Id="9762881b-ec21-49af-bb2b-86abd5c40df9" />
           <relativeChildShapes />
@@ -197,6 +189,14 @@
           <relativeChildShapes />
           <nodes>
             <requiredInterfaceShapeMoniker Id="6b1541ec-1fe6-4411-9238-853d197dae5f" />
+            <providedInterfaceShapeMoniker Id="f2282ce9-c7f4-4291-afba-6dd59b079baa" />
+          </nodes>
+        </delegationConnector>
+        <delegationConnector edgePoints="[(5.484375 : 3.60625); (5.484375 : 4.140625); (7.09375 : 4.140625)]" fixedFrom="Caller" fixedTo="Caller" customColor="Black">
+          <connectorMoniker Id="8a2e90f4-8010-4a0e-b3f1-5eba2ed497c4" />
+          <relativeChildShapes />
+          <nodes>
+            <requiredInterfaceShapeMoniker Id="46c45609-533b-4cf3-a359-b21621db7b31" />
             <providedInterfaceShapeMoniker Id="f2282ce9-c7f4-4291-afba-6dd59b079baa" />
           </nodes>
         </delegationConnector>
