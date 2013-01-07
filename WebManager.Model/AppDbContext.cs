@@ -21,6 +21,10 @@ namespace WebManager.Model
         public DbSet<Study> Studies { get; set; }
         public DbSet<StudyInformation> StudyInfos { get; set; }
         public DbSet<Question> Questions { get; set; }
+
+        public DbSet<TimeTable> TimeTables { get; set; }
+
+        public DbSet<TimeTableEntry> TimeTableEntries { get; set; }
     }
 }
  
