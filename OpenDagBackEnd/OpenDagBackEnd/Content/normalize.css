@@ -502,29 +502,3 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-
-div.top {
-    text-align:center;
-    background-color: #00A5EF;
-}
-
-div.bottom {
-    height: 800px;
-    width: 100%;
-}
-
-div.menu {
-    font-size: 1em;
-    margin: 0.67em 0;
-    background-color: #00A5EF;   
-    width: 10%;
-    float:left;
-}
-
-div.content {
-    margin-right:auto;
-    float: right;
-    background-color: #988A86;
-    width: 90%;
-}
-
