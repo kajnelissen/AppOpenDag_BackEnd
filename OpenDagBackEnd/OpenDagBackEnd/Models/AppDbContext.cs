@@ -9,10 +9,10 @@ namespace OpenDagBackEnd.Models
     /// <summary>
     /// 
     /// </summary>
-    public class AppDbContext : DbContext
+    public partial class AppDbContext : DbContext
     {
         public AppDbContext()
-            : base("AppDb")
+            : base("AppDb2")
         {
             //Database.SetInitializer(new WebTe);
         }
