@@ -187,6 +187,7 @@
     <Compile Include="Controllers\StudyInformationController.cs" />
     <Compile Include="Controllers\SurveyController.cs" />
     <Compile Include="Controllers\TimeTableController.cs" />
+    <Compile Include="Controllers\TimeTableEntryController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -361,12 +362,19 @@
     <Content Include="Views\StudyInformation\Edit.cshtml" />
     <Content Include="Views\StudyInformation\Delete.cshtml" />
     <Content Include="Views\Study\StudyInformation.cshtml" />
+    <Content Include="Views\TimeTableEntry\Index.cshtml" />
+    <Content Include="Views\TimeTableEntry\Details.cshtml" />
+    <Content Include="Views\TimeTableEntry\Create.cshtml" />
+    <Content Include="Views\TimeTableEntry\Edit.cshtml" />
+    <Content Include="Views\TimeTableEntry\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
