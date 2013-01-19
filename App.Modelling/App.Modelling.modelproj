@@ -36,6 +36,13 @@
       <SubType>Content</SubType>
       <DependentUpon>SpecificationAndroidClient.classdiagram</DependentUpon>
     </Content>
+    <Content Include="UCModel.usecasediagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UCModel.usecasediagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>UCModel.usecasediagram</DependentUpon>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="AndroidClient.componentdiagram">
       <SubType>Content</SubType>
