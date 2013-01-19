@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 13.125, 17.5" name="UCModel">
+  <useCaseModelRootMoniker Id="f2d4adb9-8ca2-41ff-b412-b3082936611a" />
+  <nestedChildShapes>
+    <actorShape Id="661738c2-583a-4eae-a420-307a8dfa1af2" absoluteBounds="6.625, 9, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="ecd43ee0-ecb9-41ad-87f8-6124ebb5efda" LastKnownName="Gebruiker" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="05cb1f1b-ca01-4ecb-9e6b-f2f2fa889601" absoluteBounds="6.75, 13.625, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="5228d38d-7586-43fd-ab60-b66c33302928" LastKnownName="Beheerder" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="64b64f07-22ff-4329-842f-c277afbae282" absoluteBounds="8.625, 7.875, 1.25, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="66758ccb-6da5-4275-b7a2-dcfe96733cd6" LastKnownName="UC1. Dagprogramma bekijken" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.125 : 9.14473684210526); (8.73840206721099 : 8.46540965591116)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="30324747-2b30-48b5-ac90-7202c65a8cdc" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="661738c2-583a-4eae-a420-307a8dfa1af2" />
+        <useCaseShapeMoniker Id="64b64f07-22ff-4329-842f-c277afbae282" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="f72c7a89-0378-4b87-bdc5-d9f51d24d602" absoluteBounds="9.875, 8.25, 1.5, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="b3e0f38f-ff12-4e95-8efa-1c2a0ad706b2" LastKnownName="UC2. Filmpje bekijken" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.125 : 9.2); (9.98188030571559 : 8.62862393885688)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="ca1f13c6-d5a0-44da-9bb8-65da52d5b9ff" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="661738c2-583a-4eae-a420-307a8dfa1af2" />
+        <useCaseShapeMoniker Id="f72c7a89-0378-4b87-bdc5-d9f51d24d602" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="549f7ef0-7d66-4b3c-a0d3-6906397ddcf6" absoluteBounds="9.375, 8.875, 1.625, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="ec75d289-d972-42ba-8085-d87562952213" LastKnownName="UC3. Studie informatie opvragen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.125 : 9.24056603773585); (9.38104230514519 : 9.15543236584358)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="37cd0cf4-fb52-4754-9fad-614ad5cbaf1e" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="661738c2-583a-4eae-a420-307a8dfa1af2" />
+        <useCaseShapeMoniker Id="549f7ef0-7d66-4b3c-a0d3-6906397ddcf6" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="c91b673a-0562-424f-90eb-0fbb52d4f77f" absoluteBounds="10.125, 9.375, 1.25, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="48bfd9fe-0e34-4d01-b853-504955d7ae1a" LastKnownName="UC4. Navigatie oproepen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.125 : 9.2741935483871); (10.1425257662223 : 9.56621217092473)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="bdffd75a-7058-4259-bcfa-9216d1d3c3e2" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="661738c2-583a-4eae-a420-307a8dfa1af2" />
+        <useCaseShapeMoniker Id="c91b673a-0562-424f-90eb-0fbb52d4f77f" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="1f1d4490-8796-4ff4-8ff9-41c58740688d" absoluteBounds="8.625, 9.625, 1.375, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="a21657c5-d4f6-4ad4-8e9a-417de612fb8e" LastKnownName="UC5. Studiewijzer aanroepen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.125 : 9.31410256410256); (8.75063503295718 : 9.73093205973261)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="6b04824e-4fb0-426a-b894-1c2d195c9c85" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="661738c2-583a-4eae-a420-307a8dfa1af2" />
+        <useCaseShapeMoniker Id="1f1d4490-8796-4ff4-8ff9-41c58740688d" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="18b24526-efde-476a-bfa0-c78f73c01084" absoluteBounds="10.875, 10, 1.625, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="0dbcb2bc-3a4e-4d9d-b7e1-f964c0458953" LastKnownName="UC5a. Studiewijzer invullen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <includeConnector edgePoints="[(10.9646223642997 : 10.1358614259421); (9.9431175079787 : 9.97457118547032)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«include»">
+      <includeMoniker Id="3f429d0b-15d6-4bc7-b0e7-d76dbc601c57" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="18b24526-efde-476a-bfa0-c78f73c01084" />
+        <useCaseShapeMoniker Id="1f1d4490-8796-4ff4-8ff9-41c58740688d" />
+      </nodes>
+    </includeConnector>
+    <useCaseShape Id="7b50e2d7-58e8-42fc-ba4b-229beb2e59d7" absoluteBounds="7.75, 10.625, 1.625, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3d5b136c-48ef-438b-8ccb-4d23d5f85507" LastKnownName="UC7. Archievements bekijken" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.125 : 9.49074074074074); (8.31520208063821 : 10.6368612628368)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="0de60ac4-ac6e-4ffd-a4be-66c4668a5d88" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="661738c2-583a-4eae-a420-307a8dfa1af2" />
+        <useCaseShapeMoniker Id="7b50e2d7-58e8-42fc-ba4b-229beb2e59d7" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="9add8a41-bf5d-4bc6-b645-54f4735b73a8" absoluteBounds="9.625, 10.625, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="14846234-d41d-47dd-99f9-8b95cae81726" LastKnownName="UC6. Mini game spelen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.125 : 9.375); (9.77144660940673 : 10.6982233047034)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="37fd5d24-866b-4d12-8406-d0679e79980f" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="661738c2-583a-4eae-a420-307a8dfa1af2" />
+        <useCaseShapeMoniker Id="9add8a41-bf5d-4bc6-b645-54f4735b73a8" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="5d3dcc8e-50c5-41ff-b2f5-e680cb6842b4" absoluteBounds="8.125, 11.5, 1.25, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="15e4348f-b99e-4183-bd09-0d0ab60e1473" LastKnownName="UC8. Studiewijzer aanpassen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.21212121212121 : 13.625); (8.50590634571489 : 12.100181806836)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="468bae42-6d29-45b7-b020-a5bc86cc8b6e" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="05cb1f1b-ca01-4ecb-9e6b-f2f2fa889601" />
+        <useCaseShapeMoniker Id="5d3dcc8e-50c5-41ff-b2f5-e680cb6842b4" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="6579c7e6-6184-4490-9e52-80b366fe7193" absoluteBounds="10.5, 11.25, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="482d3fe2-888e-4d98-858a-1dea55c1a140" LastKnownName="UC8a. Vraag toevoegen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(10.518241045185 : 11.5669109659465); (9.35219869351871 : 11.7288612925668)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="6b3b183c-fd5f-4edd-aab0-0493ed65eca1" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="6579c7e6-6184-4490-9e52-80b366fe7193" />
+        <useCaseShapeMoniker Id="5d3dcc8e-50c5-41ff-b2f5-e680cb6842b4" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="a507a9a6-b1b1-4ea6-8121-d4f397e89153" absoluteBounds="10.625, 11.875, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="c9e39616-77b9-4b13-a0fb-5b0c17ca9ac5" LastKnownName="UC8b. Vraag verwijderen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(10.6414627313687 : 12.0613766751801); (9.35442158578915 : 11.8920291560249)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="b054adb5-6c17-4f5b-b0f6-fddd7e50df71" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="a507a9a6-b1b1-4ea6-8121-d4f397e89153" />
+        <useCaseShapeMoniker Id="5d3dcc8e-50c5-41ff-b2f5-e680cb6842b4" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="5be015c1-7bf9-4618-8568-2f78ed3a113b" absoluteBounds="10.5, 7.75, 1.75, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="a05cc69e-0239-4bd1-be20-58aefaa4b592" LastKnownName="UC1a. Voorlichting kiezen om bij te wonen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(9.86332109354822 : 8.17784457722962); (10.5659066638346 : 8.09518745131357)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="da53e3eb-9419-4003-980e-7770dd361574" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="64b64f07-22ff-4329-842f-c277afbae282" />
+        <useCaseShapeMoniker Id="5be015c1-7bf9-4618-8568-2f78ed3a113b" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="c150916d-a5ca-4f63-aa44-499c545afed6" absoluteBounds="8.25, 12.5, 1.75, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="6d2f40a6-4160-43c9-b88a-b89884446516" LastKnownName="UC9. Dagprogramma toevoegen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.25 : 13.7426470588235); (8.7094339740171 : 12.9700055431674)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="32b59e32-c306-4255-95e5-bb914157c097" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="05cb1f1b-ca01-4ecb-9e6b-f2f2fa889601" />
+        <useCaseShapeMoniker Id="c150916d-a5ca-4f63-aa44-499c545afed6" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="8d6c436b-ace9-4482-8f42-7cb9d85197f0" absoluteBounds="9.625, 15.375, 1.625, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e0d28133-6d82-4fdb-9589-8687e68b3bd8" LastKnownName="UC10. Lokaalindeling toevoegen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.25 : 14.0022727272727); (10.0172269240567 : 15.4110427977016)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="8051f9b2-ab9a-494a-8f1b-0d9e2ace0aaf" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="05cb1f1b-ca01-4ecb-9e6b-f2f2fa889601" />
+        <useCaseShapeMoniker Id="8d6c436b-ace9-4482-8f42-7cb9d85197f0" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="1a65914b-f17d-4965-ab09-82f461648f1a" absoluteBounds="8, 15.5, 1.25, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3ca320a2-b6a5-4809-ab2e-ba8a08d9cbd3" LastKnownName="UC11. Filmpje toevoegen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.20967741935484 : 14.125); (8.38329582734333 : 15.5243142556786)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="39fff6e7-b885-4e69-aa08-d02a8c38470b" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="05cb1f1b-ca01-4ecb-9e6b-f2f2fa889601" />
+        <useCaseShapeMoniker Id="1a65914b-f17d-4965-ab09-82f461648f1a" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="59c2b372-fb79-41fb-831d-33b1ed0f80b7" absoluteBounds="10.75, 12.5, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="0abc6bdc-20d9-4d6e-814e-475e3375d520" LastKnownName="UC8c. Vraag bewerken" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(10.85 : 12.6); (9.25 : 12)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="1f56d1b7-7e8a-4dd0-ae18-e552675c004d" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="59c2b372-fb79-41fb-831d-33b1ed0f80b7" />
+        <useCaseShapeMoniker Id="5d3dcc8e-50c5-41ff-b2f5-e680cb6842b4" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="a63fbcd6-26e5-4539-afab-4a75e7b7ecae" absoluteBounds="8.375, 13.125, 1.5, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e3656ee7-d929-4721-97f0-3265d7f5a80b" LastKnownName="UC9a. Dagprogramma bekijken" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.25 : 13.8308823529412); (8.41775724981283 : 13.6248075441507)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="97fd6d4c-0f25-426d-9c7d-25936b72361c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="05cb1f1b-ca01-4ecb-9e6b-f2f2fa889601" />
+        <useCaseShapeMoniker Id="a63fbcd6-26e5-4539-afab-4a75e7b7ecae" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="c5545a06-c976-48d9-8672-72d3f62941da" absoluteBounds="8.5, 14.25, 2, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="7e9b4292-8a1f-4e21-8d00-9d3b461e0bdc" LastKnownName="UC9b. Dagprogramma verwijderen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(9.40665929130694 : 14.2510914434852); (9.26321640128764 : 13.8685770701004)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="7cca6207-56e1-4408-a3c2-8743f8a6f9d6" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="c5545a06-c976-48d9-8672-72d3f62941da" />
+        <useCaseShapeMoniker Id="a63fbcd6-26e5-4539-afab-4a75e7b7ecae" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="d2902f53-b7ea-466f-8b86-19d800f25bd2" absoluteBounds="10.75, 13.125, 2, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="b2d4f438-2582-4c22-8a83-83a055f09495" LastKnownName="UC9c. Activiteit aan dagprogramma toevoegen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(10.7676614335775 : 13.4217780269725); (9.87162160444547 : 13.4644465902645)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="dc045e39-58b0-4f9d-b99e-89d3b468230d" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="d2902f53-b7ea-466f-8b86-19d800f25bd2" />
+        <useCaseShapeMoniker Id="a63fbcd6-26e5-4539-afab-4a75e7b7ecae" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="da6d1e02-3772-4fc0-a3b5-49d78d2dcbcd" absoluteBounds="10.75, 13.75, 2.125, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="e7f38ff9-72b0-44aa-91b4-ae9ef518a22e" LastKnownName="UC9d. Activiteit uit dagprogramma verwijderen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <extendConnector edgePoints="[(10.9790584339559 : 13.8449411039918); (9.82791638829317 : 13.630775142008)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«extend»">
+      <extendMoniker Id="42b8a056-f86e-4d82-865d-1466e318746f" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="da6d1e02-3772-4fc0-a3b5-49d78d2dcbcd" />
+        <useCaseShapeMoniker Id="a63fbcd6-26e5-4539-afab-4a75e7b7ecae" />
+      </nodes>
+    </extendConnector>
+    <useCaseShape Id="ed7b0391-cb6c-4794-996f-ba394b1903fc" absoluteBounds="9.75, 15.875, 1.125, 0.625" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="c1b206bc-dd3e-4992-af94-4669c859bafc" LastKnownName="UC10a. Lokaalindeling aanpassen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.25 : 14.0495283018868); (9.96223851100641 : 15.9429778284384)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="3856560b-47ee-447e-b96b-062af39525a9" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="05cb1f1b-ca01-4ecb-9e6b-f2f2fa889601" />
+        <useCaseShapeMoniker Id="ed7b0391-cb6c-4794-996f-ba394b1903fc" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="c87bd7f6-7e1d-4ef3-abf0-12c3cc26114a" absoluteBounds="7.625, 16.125, 1, 0.75" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="837428fa-a7db-4d36-8b5f-6dc5a936ac58" LastKnownName="UC12. Studie informatie toevoegen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.10714285714286 : 14.125); (7.97199540979344 : 16.142989289518)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="0eb04f22-5d3a-4ed5-8190-fbad15ac346f" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="05cb1f1b-ca01-4ecb-9e6b-f2f2fa889601" />
+        <useCaseShapeMoniker Id="c87bd7f6-7e1d-4ef3-abf0-12c3cc26114a" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="0294ca25-c0df-4fb1-bba3-663f07aaf7dd" absoluteBounds="6.625, 16, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="d20e272d-b148-4acc-a1a2-324457ca5caa" LastKnownName="UC13. Studie toevoegen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.01315789473684 : 14.125); (7.11184665895588 : 16.0000865201618)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="d483a066-08da-4dd2-9e0f-bdba161a5f5c" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="05cb1f1b-ca01-4ecb-9e6b-f2f2fa889601" />
+        <useCaseShapeMoniker Id="0294ca25-c0df-4fb1-bba3-663f07aaf7dd" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="afa8cad1-e3ff-4be9-91e6-6bee2faf21a9" absoluteBounds="10, 16.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="3faedef0-91ff-43bd-8d91-c33ce3ef93e0" LastKnownName="UC14. Studie verwijderen" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(7.25 : 14.0982142857143); (10.2556983155341 : 16.7818734960126)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="b8c8c0aa-197e-487d-ad07-30a8ee1249d3" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="05cb1f1b-ca01-4ecb-9e6b-f2f2fa889601" />
+        <useCaseShapeMoniker Id="afa8cad1-e3ff-4be9-91e6-6bee2faf21a9" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

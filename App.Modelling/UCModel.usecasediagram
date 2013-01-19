@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="f2d4adb9-8ca2-41ff-b412-b3082936611a" name="UCModel" linkedPackageId="e33c320d-5089-4814-b98a-a3789824ad24" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="7e2bcb38-8dd4-4593-800b-d1c9a8b2401f">
+      <profileInstance Id="4ad4db6b-8396-49b8-a4d3-f44a3e05f6da" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="f9c88937-df22-4568-8607-8f68b65fcb39">
+      <profileInstance Id="76e99c44-90bc-4310-bd4a-c3d94895f042" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="ecd43ee0-ecb9-41ad-87f8-6124ebb5efda" name="Gebruiker" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1629275f-f215-4873-8ea6-8be2c36dde5d" />
+        <targetEnds>
+          <association Id="30324747-2b30-48b5-ac90-7202c65a8cdc" isDerived="false" sourceEndRoleName="Gebruiker" targetEndRoleName="Dagprogramma bekijken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="66758ccb-6da5-4275-b7a2-dcfe96733cd6" LastKnownName="UC1. Dagprogramma bekijken" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="91c9f89d-cee7-4c80-973b-6adcad35c143" name="Gebruiker" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1e9282f9-da0d-4635-b123-ca4b56eb687c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="80d8aebd-4505-4c40-8f18-02a9fff8e471" name="Dagprogramma bekijken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a3ff6e82-a2ea-4227-aecc-c4a030dfdbe7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ea486e4e-35a7-4bc7-ba76-cfc489bcbdb6" />
+          </association>
+          <association Id="ca1f13c6-d5a0-44da-9bb8-65da52d5b9ff" isDerived="false" sourceEndRoleName="Gebruiker" targetEndRoleName="Filmpje bekijken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b3e0f38f-ff12-4e95-8efa-1c2a0ad706b2" LastKnownName="UC2. Filmpje bekijken" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7286ad38-01d6-440a-af01-8e2b0680559b" name="Gebruiker" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="536d946f-08de-4b19-9de3-cce87548f063" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ecf1fa29-9980-4c48-93f1-42c80e9f38d9" name="Filmpje bekijken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0b31b57a-3abc-4e88-8267-293e5451ef45" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4b03f1e2-bed5-44eb-97d0-e4395b8f4b63" />
+          </association>
+          <association Id="37cd0cf4-fb52-4754-9fad-614ad5cbaf1e" isDerived="false" sourceEndRoleName="Gebruiker" targetEndRoleName="Studie informatie opvragen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ec75d289-d972-42ba-8085-d87562952213" LastKnownName="UC3. Studie informatie opvragen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5f8caea1-8575-4aba-9727-78b4b92fb134" name="Gebruiker" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="893bce09-8177-467a-ab0e-2e01d4c8f5f5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a09da6c3-a0b1-4f0b-82b8-e078b09541cc" name="Studie informatie opvragen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="07698b32-5616-4bb1-83d8-cb2708a0a08f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="be9a1fbb-1e0a-4696-bf62-dedc29e74860" />
+          </association>
+          <association Id="6b04824e-4fb0-426a-b894-1c2d195c9c85" isDerived="false" sourceEndRoleName="Gebruiker" targetEndRoleName="Studiewijzer aanroepen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="a21657c5-d4f6-4ad4-8e9a-417de612fb8e" LastKnownName="UC5. Studiewijzer aanroepen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8bf92443-4267-4808-9be1-635d2d57831e" name="Gebruiker" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3978c06f-360a-4df7-83d0-d0e9c406cdf5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e040ffdd-0f01-444c-a65a-194669040e20" name="Studiewijzer aanroepen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d9282f9b-90e7-4422-be18-06cdcd38d056" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e4353023-fc58-4442-9595-9e8dedb2cae7" />
+          </association>
+          <association Id="bdffd75a-7058-4259-bcfa-9216d1d3c3e2" isDerived="false" sourceEndRoleName="Gebruiker" targetEndRoleName="Navigatie oproepen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="48bfd9fe-0e34-4d01-b853-504955d7ae1a" LastKnownName="UC4. Navigatie oproepen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f5cf96bd-f1f3-4712-9b23-ca11a59dbcf8" name="Gebruiker" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9cc497ef-5cb0-4208-a87a-a3041b00ea3d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="370b7a21-355d-4ef4-8de7-29c925087300" name="Navigatie oproepen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="89ec612c-fe90-49b1-88c7-2a7fff540923" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="14354a88-bb35-46e3-928e-4d36dfd27b1e" />
+          </association>
+          <association Id="0de60ac4-ac6e-4ffd-a4be-66c4668a5d88" isDerived="false" sourceEndRoleName="Gebruiker" targetEndRoleName="Archievements bekijken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3d5b136c-48ef-438b-8ccb-4d23d5f85507" LastKnownName="UC7. Archievements bekijken" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bc8b7d6d-4b9f-471c-aac6-842453253326" name="Gebruiker" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7d01dee2-6c46-4ef7-9a7b-a6ce7622d089" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="095e2f67-d5e8-4c03-aa3d-9aadd0324257" name="Archievements bekijken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9926cf21-8d21-48d8-aea9-18ac9c9dd08b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7fd2c289-1f78-42e8-a0de-b79886773d50" />
+          </association>
+          <association Id="37fd5d24-866b-4d12-8406-d0679e79980f" isDerived="false" sourceEndRoleName="Gebruiker" targetEndRoleName="Mini game spelen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="14846234-d41d-47dd-99f9-8b95cae81726" LastKnownName="UC6. Mini game spelen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="53940054-8a3b-4a34-95d2-dfc545823f11" name="Gebruiker" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7d2d7acf-0b2e-4148-8af0-970240d99a7c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="039ca62d-a86d-49ea-ae3b-f948e8a1fa1f" name="Mini game spelen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="45e6ab01-ca79-40e3-b9ea-c6cd12221641" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5e898974-20c4-4826-9d3f-b9a026b30c87" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="5228d38d-7586-43fd-ab60-b66c33302928" name="Beheerder" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="368e3960-1fbd-44ad-b0df-488cf516087c" />
+        <targetEnds>
+          <association Id="468bae42-6d29-45b7-b020-a5bc86cc8b6e" isDerived="false" sourceEndRoleName="Beheerder" targetEndRoleName="Studiewijzer aanpassen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="15e4348f-b99e-4183-bd09-0d0ab60e1473" LastKnownName="UC8. Studiewijzer aanpassen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9e92da35-c7ea-47e1-b897-a634c4ac9c48" name="Beheerder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="eec217bd-ec21-4519-8eff-f1c1162a2880" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="775efde2-bbdd-4f22-8894-6ef28d07acf1" name="Studiewijzer aanpassen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="583e2edf-3627-498a-8291-cfe3302fa689" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="495b6eb7-9a98-4f95-9612-57ed141a402b" />
+          </association>
+          <association Id="8051f9b2-ab9a-494a-8f1b-0d9e2ace0aaf" isDerived="false" sourceEndRoleName="Beheerder" targetEndRoleName="Lokaal indeling toevoegen/ bewerken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e0d28133-6d82-4fdb-9589-8687e68b3bd8" LastKnownName="UC10. Lokaalindeling toevoegen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="110617ae-cc0a-4bb9-b391-5f8070710d05" name="Beheerder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a412af8b-48c4-4f24-90b1-eb3ee913ee19" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c65fe91d-de60-46ee-a8db-fd457c88cd1c" name="Lokaal indeling toevoegen/ bewerken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9a0d9b8e-6635-410d-9c37-e53a98ba892e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cf36601d-25a2-4489-b099-62cc2266a155" />
+          </association>
+          <association Id="39fff6e7-b885-4e69-aa08-d02a8c38470b" isDerived="false" sourceEndRoleName="Beheerder" targetEndRoleName="Filmpje toevoegen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3ca320a2-b6a5-4809-ab2e-ba8a08d9cbd3" LastKnownName="UC11. Filmpje toevoegen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c90b4bb6-53d5-4571-a497-4b2f966d52a6" name="Beheerder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d1971a4e-a067-48af-bf15-1c70c9ff19c3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c0befb0e-aad7-4276-b2c9-dfcf87b2863d" name="Filmpje toevoegen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ae547bb7-551d-40cf-ab68-d8ee16053f23" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4a08e0db-e245-4eb8-ab47-f57c320aad3c" />
+          </association>
+          <association Id="97fd6d4c-0f25-426d-9c7d-25936b72361c" isDerived="false" sourceEndRoleName="Beheerder" targetEndRoleName="UC9. Dagprogramma bekijken" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e3656ee7-d929-4721-97f0-3265d7f5a80b" LastKnownName="UC9a. Dagprogramma bekijken" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3f8f7b47-53a6-487f-8ebc-f2d19619c70f" name="Beheerder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3133d04a-128f-4601-9b57-aac358daec00" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="03082c24-5902-4ecd-9ba4-846ec66af185" name="UC9. Dagprogramma bekijken" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="24a3ffc8-73a8-435a-92f7-178bd71f8d65" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6c315fea-44d9-46af-a737-31c019427f2d" />
+          </association>
+          <association Id="32b59e32-c306-4255-95e5-bb914157c097" isDerived="false" sourceEndRoleName="Beheerder" targetEndRoleName="UC9. Dagprogramma toevoegen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6d2f40a6-4160-43c9-b88a-b89884446516" LastKnownName="UC9. Dagprogramma toevoegen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8f06a510-2018-4765-a656-0d4319105b1b" name="Beheerder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="be701c85-735e-41aa-b502-8efc06fedf81" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d55595f1-af29-43e9-ab77-078f0f1aa209" name="UC9. Dagprogramma toevoegen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e1fd9f59-51e8-4070-943f-3e307b513fb7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2ab48180-4152-46f4-a309-5c46477cdc95" />
+          </association>
+          <association Id="3856560b-47ee-447e-b96b-062af39525a9" isDerived="false" sourceEndRoleName="Beheerder" targetEndRoleName="UC11a. Lokaalindeling aanpassen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c1b206bc-dd3e-4992-af94-4669c859bafc" LastKnownName="UC10a. Lokaalindeling aanpassen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ab981f0e-4e63-4801-a73e-1c8a97c0b4f8" name="Beheerder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="60f6eaff-64ea-4c0e-b807-0e1a6d686ab7" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7c6068e0-b9cf-45e1-9c55-7c52fb7b7608" name="UC11a. Lokaalindeling aanpassen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c573c412-8483-46dc-8808-887cfe8a86f0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="52e902ce-3a4f-4154-b77d-39f59efcb972" />
+          </association>
+          <association Id="0eb04f22-5d3a-4ed5-8190-fbad15ac346f" isDerived="false" sourceEndRoleName="Beheerder" targetEndRoleName="UC12. Studie informatie toevoegen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="837428fa-a7db-4d36-8b5f-6dc5a936ac58" LastKnownName="UC12. Studie informatie toevoegen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a094e07f-52e6-4d6d-9208-0f625de4935d" name="Beheerder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="049f8e32-98fa-497d-84a3-b1dc7ac1bd3f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="89c2cf86-b745-484d-b027-277b30152733" name="UC12. Studie informatie toevoegen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a05f0e84-cef2-4696-be08-343dc5f62170" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f5662975-aa8c-4381-beb9-9f6390777fc9" />
+          </association>
+          <association Id="d483a066-08da-4dd2-9e0f-bdba161a5f5c" isDerived="false" sourceEndRoleName="Beheerder" targetEndRoleName="UC13. Studie toevoegen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d20e272d-b148-4acc-a1a2-324457ca5caa" LastKnownName="UC13. Studie toevoegen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="84fa2e56-2872-40d4-bca2-2a8523947b1e" name="Beheerder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="414c74ed-fa71-4829-b5c2-7aafcb789df8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b64a64b0-2b6d-4d2b-a274-fcb6ffa9a29a" name="UC13. Studie toevoegen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3f25dc99-ddd2-4596-bf3d-d6c3a9675ee3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="3000cb91-8f38-4817-ac3e-805e2ca21aa1" />
+          </association>
+          <association Id="b8c8c0aa-197e-487d-ad07-30a8ee1249d3" isDerived="false" sourceEndRoleName="Beheerder" targetEndRoleName="UC14. Studie verwijderen" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3faedef0-91ff-43bd-8d91-c33ce3ef93e0" LastKnownName="UC14. Studie verwijderen" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="93f521a0-a8c1-405c-9b96-d27b447de12b" name="Beheerder" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aeb305f4-2d4c-4e6c-a100-0b4fda141afb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b963cb79-6bff-499c-9adb-ad4cfec5d880" name="UC14. Studie verwijderen" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5c9814be-9a5c-4d23-b4bc-6d20046b29b3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="af9d8927-3730-47f9-9e8a-2a57e0e4fee6" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="66758ccb-6da5-4275-b7a2-dcfe96733cd6" name="UC1. Dagprogramma bekijken" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="61f1ae7f-2e47-4333-b707-21a53342c327" />
+        <extendedCases>
+          <extend Id="da53e3eb-9419-4003-980e-7770dd361574">
+            <useCaseMoniker Id="a05cc69e-0239-4bd1-be20-58aefaa4b592" LastKnownName="UC1a. Voorlichting kiezen om bij te wonen" />
+            <elementDefinition Id="c32624b7-cf1f-456a-b51a-69c21c950350" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b3e0f38f-ff12-4e95-8efa-1c2a0ad706b2" name="UC2. Filmpje bekijken" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b8ef9e3b-d801-41b3-b3c2-e576098bc5e4" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ec75d289-d972-42ba-8085-d87562952213" name="UC3. Studie informatie opvragen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="278192c6-5174-4b03-904b-f6820c4ef3d1" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="48bfd9fe-0e34-4d01-b853-504955d7ae1a" name="UC4. Navigatie oproepen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b08965d6-14b5-44fc-a469-ea2e0f2bf4b4" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a21657c5-d4f6-4ad4-8e9a-417de612fb8e" name="UC5. Studiewijzer aanroepen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="91c23baa-d6e9-48e5-a1d9-1411af31661f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0dbcb2bc-3a4e-4d9d-b7e1-f964c0458953" name="UC5a. Studiewijzer invullen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4b6ffa14-66f4-417a-98d6-6a64e3847653" />
+        <additions>
+          <include Id="3f429d0b-15d6-4bc7-b0e7-d76dbc601c57">
+            <useCaseMoniker Id="a21657c5-d4f6-4ad4-8e9a-417de612fb8e" LastKnownName="UC5. Studiewijzer aanroepen" />
+            <elementDefinition Id="8134984b-b601-445d-8d06-60572553f683" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3d5b136c-48ef-438b-8ccb-4d23d5f85507" name="UC7. Archievements bekijken" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ebcd5eab-4eb1-4108-bcfa-f1526340b2ad" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="14846234-d41d-47dd-99f9-8b95cae81726" name="UC6. Mini game spelen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a54327b5-604e-4ab1-bf3e-af6829a17d47" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="15e4348f-b99e-4183-bd09-0d0ab60e1473" name="UC8. Studiewijzer aanpassen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f05fce35-8c8a-428e-b317-6a3c93ae6288" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="482d3fe2-888e-4d98-858a-1dea55c1a140" name="UC8a. Vraag toevoegen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ea25509d-f135-4383-93f0-a367fc164b14" />
+        <extendedCases>
+          <extend Id="6b3b183c-fd5f-4edd-aab0-0493ed65eca1">
+            <useCaseMoniker Id="15e4348f-b99e-4183-bd09-0d0ab60e1473" LastKnownName="UC8. Studiewijzer aanpassen" />
+            <elementDefinition Id="59153779-8386-4d30-9609-f6c32aef88ac" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c9e39616-77b9-4b13-a0fb-5b0c17ca9ac5" name="UC8b. Vraag verwijderen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1230e109-2363-49bc-8c6f-9eb34bb345fd" />
+        <extendedCases>
+          <extend Id="b054adb5-6c17-4f5b-b0f6-fddd7e50df71">
+            <useCaseMoniker Id="15e4348f-b99e-4183-bd09-0d0ab60e1473" LastKnownName="UC8. Studiewijzer aanpassen" />
+            <elementDefinition Id="b496d02c-4650-4632-bb8b-705753a5e492" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="a05cc69e-0239-4bd1-be20-58aefaa4b592" name="UC1a. Voorlichting kiezen om bij te wonen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b88cd003-acf8-4da9-8aa7-3282112d3ae2" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="6d2f40a6-4160-43c9-b88a-b89884446516" name="UC9. Dagprogramma toevoegen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f424bc1e-c0ee-46b2-8a48-95ed07987149" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e0d28133-6d82-4fdb-9589-8687e68b3bd8" name="UC10. Lokaalindeling toevoegen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ece0bbec-e9f3-44e6-8ba5-5e88604aefe5" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3ca320a2-b6a5-4809-ab2e-ba8a08d9cbd3" name="UC11. Filmpje toevoegen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="912ea8c7-819b-45e6-aa22-eaafd8a6fb55" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="0abc6bdc-20d9-4d6e-814e-475e3375d520" name="UC8c. Vraag bewerken" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="43a4807a-e1e1-4e7c-a059-84d5519770a3" />
+        <extendedCases>
+          <extend Id="1f56d1b7-7e8a-4dd0-ae18-e552675c004d">
+            <useCaseMoniker Id="15e4348f-b99e-4183-bd09-0d0ab60e1473" LastKnownName="UC8. Studiewijzer aanpassen" />
+            <elementDefinition Id="7c565e59-ef3a-4892-9cd1-6b97b156490f" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e3656ee7-d929-4721-97f0-3265d7f5a80b" name="UC9a. Dagprogramma bekijken" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cf0e7571-6853-4227-81dc-d68a974fde7a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="7e9b4292-8a1f-4e21-8d00-9d3b461e0bdc" name="UC9b. Dagprogramma verwijderen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b601f1a5-2310-454e-b6dd-e7c2b2467e47" />
+        <extendedCases>
+          <extend Id="7cca6207-56e1-4408-a3c2-8743f8a6f9d6">
+            <useCaseMoniker Id="e3656ee7-d929-4721-97f0-3265d7f5a80b" LastKnownName="UC9a. Dagprogramma bekijken" />
+            <elementDefinition Id="e0cf14df-cdde-4311-9dcd-414c35ad58e0" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b2d4f438-2582-4c22-8a83-83a055f09495" name="UC9c. Activiteit aan dagprogramma toevoegen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d3d6b419-aabf-497a-b6d4-62f93727300b" />
+        <extendedCases>
+          <extend Id="dc045e39-58b0-4f9d-b99e-89d3b468230d">
+            <useCaseMoniker Id="e3656ee7-d929-4721-97f0-3265d7f5a80b" LastKnownName="UC9a. Dagprogramma bekijken" />
+            <elementDefinition Id="d254e49a-4057-41ca-9277-a3603a7ba80a" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="e7f38ff9-72b0-44aa-91b4-ae9ef518a22e" name="UC9d. Activiteit uit dagprogramma verwijderen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="611941fd-ce59-4f79-892d-3c25a4db5cc0" />
+        <extendedCases>
+          <extend Id="42b8a056-f86e-4d82-865d-1466e318746f">
+            <useCaseMoniker Id="e3656ee7-d929-4721-97f0-3265d7f5a80b" LastKnownName="UC9a. Dagprogramma bekijken" />
+            <elementDefinition Id="6ee84cb7-ba49-40b1-b877-2828ed38bab6" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c1b206bc-dd3e-4992-af94-4669c859bafc" name="UC10a. Lokaalindeling aanpassen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7d5625ee-f892-4a1a-b730-f8156b8c9fda" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="837428fa-a7db-4d36-8b5f-6dc5a936ac58" name="UC12. Studie informatie toevoegen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7d4e234e-2f62-4708-89da-1a313291609f" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="d20e272d-b148-4acc-a1a2-324457ca5caa" name="UC13. Studie toevoegen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b28f7172-ca46-4529-b6f0-e304498cc591" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3faedef0-91ff-43bd-8d91-c33ce3ef93e0" name="UC14. Studie verwijderen" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ab3a25df-45c4-4c8c-8b8a-60a54bcde253" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="e33c320d-5089-4814-b98a-a3789824ad24" name="App.Modelling">
+    <elementDefinition Id="852fbee5-43ed-4161-ab4a-cada46817dd0" />
+  </package>
+</useCaseModelRoot>
