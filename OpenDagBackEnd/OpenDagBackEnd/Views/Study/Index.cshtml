@@ -18,11 +18,12 @@
             @Html.DisplayNameFor(model => model.ShortName)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Information)
+            @Html.DisplayNameFor(model => model.StudyInformationId)
         </th>
+        <th></th>
     </tr>
 
-    @foreach (var item in Model) {
+@foreach (var item in Model) {
     <tr>
         <td>
             @Html.DisplayFor(modelItem => item.Name)
@@ -31,7 +32,7 @@
             @Html.DisplayFor(modelItem => item.ShortName)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Information)  
+            @Html.DisplayFor(modelItem => item.StudyInformationId)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
@@ -40,5 +41,5 @@
         </td>
     </tr>
 }
-</table>
 
+</table>

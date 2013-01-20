@@ -48,41 +48,41 @@
       <HintPath>..\Packages missing\DotNetOpenAuth.Core.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.Core.UI">
-      <HintPath>..\packages\DotNetOpenAuth.Core.UI.4.1.4.12333\lib\net45-full\DotNetOpenAuth.Core.UI.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.Core.UI.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.InfoCard">
-      <HintPath>..\packages\DotNetOpenAuth.InfoCard.4.1.4.12333\lib\net45-full\DotNetOpenAuth.InfoCard.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.InfoCard.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.InfoCard.UI">
-      <HintPath>..\packages\DotNetOpenAuth.InfoCard.UI.4.1.4.12333\lib\net45-full\DotNetOpenAuth.InfoCard.UI.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.InfoCard.UI.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.OAuth.Common">
-      <HintPath>..\packages\DotNetOpenAuth.OAuth.Common.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.Common.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.OAuth.Common.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.OAuth.ServiceProvider">
-      <HintPath>..\packages\DotNetOpenAuth.OAuth.ServiceProvider.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OAuth.ServiceProvider.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.OAuth.ServiceProvider.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.OpenId.Provider">
-      <HintPath>..\packages\DotNetOpenAuth.OpenId.Provider.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.Provider.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.OpenId.Provider.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.OpenId.Provider.UI">
-      <HintPath>..\packages\DotNetOpenAuth.OpenId.Provider.UI.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.Provider.UI.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.OpenId.Provider.UI.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.OpenId.RelyingParty.UI">
-      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.UI.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.RelyingParty.UI.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.OpenId.RelyingParty.UI.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.OpenId.UI">
-      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.UI.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenId.UI.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.OpenId.UI.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.OpenIdInfoCard.UI">
-      <HintPath>..\packages\DotNetOpenAuth.OpenIdInfoCard.UI.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenIdInfoCard.UI.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.OpenIdInfoCard.UI.dll</HintPath>
     </Reference>
     <Reference Include="DotNetOpenAuth.OpenIdOAuth">
-      <HintPath>..\packages\DotNetOpenAuth.OpenIdOAuth.4.1.4.12333\lib\net45-full\DotNetOpenAuth.OpenIdOAuth.dll</HintPath>
+      <HintPath>..\Packages missing\DotNetOpenAuth.OpenIdOAuth.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\Packages missing\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -105,7 +105,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
     <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>D:\SchoolZuyd\School_HSZuyd\Leerjaar 2\Blok 4\Webtech Basis\CodeFirstLib\CodeFirstLib\bin\Debug\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -133,7 +133,7 @@
       <HintPath>..\packages\Microsoft.AspNet.Mvc.4.0.20710.0\lib\net40\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Optimization">
-      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.0.0\lib\net40\System.Web.Optimization.dll</HintPath>
+      <HintPath>..\Packages missing\System.Web.Optimization.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
@@ -165,11 +165,11 @@
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
-      <HintPath>..\packages\WebGrease.1.1.0\lib\WebGrease.dll</HintPath>
+      <HintPath>..\Packages missing\WebGrease.dll</HintPath>
     </Reference>
     <Reference Include="Antlr3.Runtime">
       <Private>True</Private>
-      <HintPath>..\packages\WebGrease.1.1.0\lib\Antlr3.Runtime.dll</HintPath>
+      <HintPath>..\Packages missing\Antlr3.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -200,7 +200,6 @@
     <Compile Include="Models\Question.cs" />
     <Compile Include="Models\Study.cs" />
     <Compile Include="Models\StudyInformation.cs" />
-    <Compile Include="Models\StudyStudyInformation.cs" />
     <Compile Include="Models\Survey.cs" />
     <Compile Include="Models\TimeTable.cs" />
     <Compile Include="Models\TimeTableEntry.cs" />
@@ -341,11 +340,6 @@
     <Content Include="Views\Answer\Create.cshtml" />
     <Content Include="Views\Answer\Edit.cshtml" />
     <Content Include="Views\Answer\Delete.cshtml" />
-    <Content Include="Views\Study\Index.cshtml" />
-    <Content Include="Views\Study\Details.cshtml" />
-    <Content Include="Views\Study\Create.cshtml" />
-    <Content Include="Views\Study\Edit.cshtml" />
-    <Content Include="Views\Study\Delete.cshtml" />
     <Content Include="Views\TimeTable\Index.cshtml" />
     <Content Include="Views\TimeTable\Details.cshtml" />
     <Content Include="Views\TimeTable\Create.cshtml" />
@@ -356,17 +350,21 @@
     <Content Include="Views\Navigation\Create.cshtml" />
     <Content Include="Views\Navigation\Edit.cshtml" />
     <Content Include="Views\Navigation\Delete.cshtml" />
-    <Content Include="Views\StudyInformation\Index.cshtml" />
-    <Content Include="Views\StudyInformation\Details.cshtml" />
-    <Content Include="Views\StudyInformation\Create.cshtml" />
-    <Content Include="Views\StudyInformation\Edit.cshtml" />
-    <Content Include="Views\StudyInformation\Delete.cshtml" />
-    <Content Include="Views\Study\StudyInformation.cshtml" />
     <Content Include="Views\TimeTableEntry\Index.cshtml" />
     <Content Include="Views\TimeTableEntry\Details.cshtml" />
     <Content Include="Views\TimeTableEntry\Create.cshtml" />
     <Content Include="Views\TimeTableEntry\Edit.cshtml" />
     <Content Include="Views\TimeTableEntry\Delete.cshtml" />
+    <Content Include="Views\Study\Index.cshtml" />
+    <Content Include="Views\Study\Details.cshtml" />
+    <Content Include="Views\Study\Create.cshtml" />
+    <Content Include="Views\Study\Edit.cshtml" />
+    <Content Include="Views\Study\Delete.cshtml" />
+    <Content Include="Views\StudyInformation\Index.cshtml" />
+    <Content Include="Views\StudyInformation\Details.cshtml" />
+    <Content Include="Views\StudyInformation\Create.cshtml" />
+    <Content Include="Views\StudyInformation\Edit.cshtml" />
+    <Content Include="Views\StudyInformation\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -46,23 +46,16 @@ namespace OpenDagBackEnd.Controllers
         // POST: /Study/Create
 
         [HttpPost]
-        public ActionResult Create(StudyStudyInformation model)
+        public ActionResult Create(Study study)
         {
-            try
+            if (ModelState.IsValid)
             {
-                // TODO: Add insert logic here
-                //db.StudyInfos.Add(model.StudyInformation);
-                db.Studies.Add(model.Study);
-                db.StudyInfos.Add(model.StudyInformation);
-                
+                db.Studies.Add(study);
                 db.SaveChanges();
-
                 return RedirectToAction("Index");
             }
-            catch
-            {
-                return View(model);
-            }
+
+            return View(study);
         }
 
         //
@@ -116,11 +109,6 @@ namespace OpenDagBackEnd.Controllers
             db.Studies.Remove(study);
             db.SaveChanges();
             return RedirectToAction("Index");
-        }
-
-        public ActionResult StudyInformation()
-        {
-            return View(db.StudyInfos.ToList());
         }
 
         protected override void Dispose(bool disposing)
