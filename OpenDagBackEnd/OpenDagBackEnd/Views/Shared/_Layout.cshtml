@@ -84,8 +84,8 @@
                         <ul>
                             <li>@Html.ActionLink("Studies", "Index", "Study")
                                 <ul>
-                                    <li>@*<a href="#">Link</a>*@@Html.ActionLink("Create", "Create", "Study")</li>
-                                    <li><a href="#">Link</a></li>
+                                    <li>@*<a href="#">Link</a>*@@Html.ActionLink("Studies", "Index", "Study")</li>
+                                    <li>@*<a href="#">Link</a>*@@Html.ActionLink("Studie Informatie", "Index", "StudyInformation")</li>
                                 </ul>
                             </li>
                             <li><a href="#">Navigatie</a>
@@ -120,8 +120,8 @@
             @RenderSection("featured", required: false)    
             @RenderBody()
 
-            @Scripts.Render("~/bundles/scripts")
-            @RenderSection("scripts", required: false)
+            @*@Scripts.Render("~/bundles/scripts")*@
+            @*@RenderSection("scripts", required: false)*@
         </section>
 
         

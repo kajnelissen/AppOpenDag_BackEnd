@@ -1,82 +1,51 @@
-﻿@{
+﻿@model OpenDagBackEnd.Models.Study
+
+@{
     ViewBag.Title = "Create";
 }
 
-@model OpenDagBackEnd.Models.StudyStudyInformation
+<h2>Create</h2>
 
-<!DOCTYPE html>
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-    
-    <head runat="server">
-        <link rel="stylesheet" type="text/css" href="~/Content/Site.css" />
-        <script type="text/javascript">
-            document.write(["\<script type='text/javascript' src='",
-            ("https:" == document.location.protocol) ? "https://" : "http://",
-            "ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'>\<\/script>"].join(''));
-        </script>
-        <script src="jquery-1.7.1.js"></script>
+    <fieldset>
+        <legend>Study</legend>
 
-        <title></title>
-    </head>
-    <body>
-        <script type="text/javascript" src="~/Scripts/AddBBCode.js"></script>
-        
-        <div class="form-container clearfix">
-            @Html.ValidationSummary(true)
-            <form method="post">
-                <div class="editor-label">
-            @Html.LabelFor(model => model.Study.Name)
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.Study.Name)
-            @Html.ValidationMessageFor(model => model.Study.Name)
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.Study.ShortName)
+            @Html.LabelFor(model => model.ShortName)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.Study.ShortName)
-            @Html.ValidationMessageFor(model => model.Study.ShortName)
+            @Html.EditorFor(model => model.ShortName)
+            @Html.ValidationMessageFor(model => model.ShortName)
         </div>
 
         <div class="editor-label">
-            @Html.LabelFor(model => model.Study.StudyInformationId)
+            @Html.LabelFor(model => model.StudyInformationId)
         </div>
         <div class="editor-field">
-            @Html.EditorFor(model => model.Study.StudyInformationId)
-            @Html.ValidationMessageFor(model => model.Study.StudyInformationId)
+            @Html.EditorFor(model => model.StudyInformationId)
+            @Html.ValidationMessageFor(model => model.StudyInformationId)
         </div>
-        <div class="editior-label">
-            @Html.LabelFor(model => model.StudyInformation.Title)  
-        </div>
-        <div class="editor-field">
-            @Html.TextAreaFor(model => model.StudyInformation.Title)
-            @Html.ValidationMessageFor(model => model.StudyInformation.Title)
-        </div>
-        <div class="editor-label">        
-            @Html.LabelFor(model => model.StudyInformation.Content)        
-        </div>        
-        <div class="editor-field">        
-            <script type="text/javascript" src="AddBBCode.js"></script>        
-            @Html.TextAreaFor(model => model.StudyInformation.Content,new { id="bb-post-field"})        
-            @Html.ValidationMessageFor(model => model.StudyInformation.Content)           
-        </div>
+
+        <p>
             <input type="submit" value="Create" />
-             </form>
-            <div class="form-help-panel clearfix">
-                <h3>BB Code</h3>
-                    <button title="Plaatje" id="bb-img">img</button>
-                    <button id="bb-b">b</button>
-                    <button id="bb-i">i</button>
-                    <button id="bb-u">u</button>
-                    <button id="bb-url">url</button>
-                    <button id="bb-list">list</button>
-                    <button id="bb-asterisk">*</button>
-                    <button id="bb-color">color</button>
-                    <button id="bb-quote">quote</button>
-            </div>
-        </div>    
-    </body>
-</html>
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
