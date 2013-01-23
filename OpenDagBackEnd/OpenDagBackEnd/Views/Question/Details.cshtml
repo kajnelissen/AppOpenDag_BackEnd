@@ -27,3 +27,42 @@
     @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
     @Html.ActionLink("Back to List", "Index")
 </p>
+
+<p>
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Text)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+
+            </th>
+        </tr>
+
+        @foreach (var item in Model.Answers)
+        {
+            <tr>
+                <th>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.Text)
+                </th>
+                <th>
+                    @Html.DisplayFor(modelItem => item.StudyRatings)
+                </th>
+                <th>
+                    @Html.ActionLink("Edit", "Edit", "Answer", new{ id=item.Id}, null) |
+                    @Html.ActionLink("Details", "Details", "Answer", new{ id=item.Id}, null) |
+                    @Html.ActionLink("Delete", "Delete", "Answer", new { id = item.Id }, null);
+                </th>
+            </tr>
+        }
+    </table>
+</p>
