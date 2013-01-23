@@ -13,6 +13,11 @@ namespace OpenDagBackEnd.Controllers
     {
         private AppDbContext db = new AppDbContext();
 
+        public AnswerController() : base()
+        {
+
+        }
+
         //
         // GET: /Answer/
 
@@ -32,6 +37,15 @@ namespace OpenDagBackEnd.Controllers
             {
                 return HttpNotFound();
             }
+
+            var question = from item in db.Questions
+                           where item.Id == answer.QuestionId
+                           select item.Text;
+
+            foreach(string i in question)
+            {
+                ViewBag.Question = i;
+            }
             return View(answer);
         }
 
@@ -41,6 +55,17 @@ namespace OpenDagBackEnd.Controllers
         public ActionResult Create()
         {
             ViewBag.QuestionId = new SelectList(db.Questions, "Id", "Text");
+            var studies = from item in db.Studies
+                          select item;
+
+            List<Study> allStudies = new List<Study>();
+            foreach (Study s in studies)
+            {
+                allStudies.Add(s);
+            }
+
+            ViewBag.Studies = allStudies;
+
             return View();
         }
 
@@ -50,8 +75,23 @@ namespace OpenDagBackEnd.Controllers
         [HttpPost]
         public ActionResult Create(Answer answer)
         {
+            var studies = from item in db.Studies
+                          select item;
+
+            List<Study> allStudies = new List<Study>();
+            foreach (Study s in studies)
+            {
+                allStudies.Add(s);
+            }
+
             if (ModelState.IsValid)
             {
+                answer.StudyRatings = new Dictionary<Study, int>();
+                for(int index = 0; index < allStudies.Count; index++)
+                {
+                    int value = Convert.ToInt32(Request["tbScore" + index]);
+                    answer.StudyRatings.Add(db.Studies.Find(allStudies[index].Id), value);
+                }
                 db.Answers.Add(answer);
                 db.SaveChanges();
                 return RedirectToAction("Index");
