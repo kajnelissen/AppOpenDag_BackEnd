@@ -8,22 +8,44 @@
 
 <fieldset>
     <legend>Answer</legend>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Text)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.Text)
-    </div>
-
-    <div class="display-label">
-         @Html.DisplayNameFor(model => model.Question.Text)
-    </div>
-    <div class="display-field">
-        @Html.DisplayFor(model => model.Question.Text)
-    </div>
+    
+    <table>
+        <tr>
+            <th>
+                Antwoord
+            </th>
+            <th>
+                Vraag
+            </th>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayFor(model => model.Text)
+            </th>
+            <th>
+                @ViewBag.Question
+            </th>
+        </tr>
+    </table>
+    
+    <table>
+    @foreach(var item in Model.StudyRatings)
+    {
+        <tr>
+            <th>
+                @item.Key.Name
+            </th>
+            <th>
+                @item.Value
+            </th>
+        </tr>    
+    }
+    
+    </table>
 </fieldset>
+
 <p>
     @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
-    @Html.ActionLink("Back to List", "Index")
+    @Html.ActionLink("Back to List", "Index") ||
+    @Html.ActionLink("Ga naar vraag", "Details", "Question", new { id=Model.QuestionId }, null);
 </p>

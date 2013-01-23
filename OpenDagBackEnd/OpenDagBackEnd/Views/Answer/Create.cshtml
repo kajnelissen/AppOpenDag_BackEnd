@@ -27,6 +27,24 @@
             @Html.DropDownList("QuestionId", String.Empty)
             @Html.ValidationMessageFor(model => model.QuestionId)
         </div>
+        <p>
+
+        <table>
+            @for (int index = 0; index < ViewBag.Studies.Count; index++ )
+            {
+               <tr>
+                   <th>
+                        @ViewBag.Studies[index].Name
+                   </th>
+                   <th>
+                        @Html.TextArea("tbScore" + index, null, new { cols = "15", rows = "1" })
+@*                        <asp:RequiredFieldValidator ID="'tbScore' + @index" runat="server" 
+                             ControlToValidate="topic" ErrorMessage="Score ontbreekt bij @ViewBag.Studies[index].Name" ForeColor="Red">*</asp:RequiredFieldValidator>*@
+                   </th>
+               </tr>
+            }
+        </table>    
+        </p>
 
         <p>
             <input type="submit" value="Create" />

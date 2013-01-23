@@ -84,8 +84,8 @@
                         <ul>
                             <li>@Html.ActionLink("Studies", "Index", "Study")
                                 <ul>
-                                    <li>@*<a href="#">Link</a>*@@Html.ActionLink("Studies", "Index", "Study")</li>
-                                    <li>@*<a href="#">Link</a>*@@Html.ActionLink("Studie Informatie", "Index", "StudyInformation")</li>
+                                    <li>@Html.ActionLink("Studies", "Index", "Study")</li>
+                                    <li>@Html.ActionLink("Studie Informatie", "Index", "StudyInformation")</li>
                                 </ul>
                             </li>
                             <li><a href="#">Navigatie</a>
@@ -94,10 +94,10 @@
                                     <li><a href="#">Link</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">Studiewijzer</a>
+                            <li>@Html.ActionLink("Studiewijzer", "Index", "Survey")
                                 <ul>
-                                    <li><a href="#">Link</a></li>
-                                    <li><a href="#">Link</a></li>
+                                    <li>@Html.ActionLink("Vragen", "Index", "Question")</li>
+                                    <li>@Html.ActionLink("Antwoorden", "Index", "Answer")</li>
                                 </ul>
                             </li>
                             <li>@Html.ActionLink("Dagprogramma", "Index", "TimeTable")
