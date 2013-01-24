@@ -44,6 +44,19 @@ namespace OpenDagBackEnd.Controllers
             return View();
         }
 
+        public FileContentResult getImg(int id)
+        {
+            byte[] byteArray = db.NavigationTracks.Find(id).Image;
+            if (byteArray != null)
+            {
+                return new FileContentResult(byteArray, "image/jpeg");
+            }
+            else
+            {
+                return null;
+            }
+        }
+
         //
         // POST: /NavigationTrack/Create
 
