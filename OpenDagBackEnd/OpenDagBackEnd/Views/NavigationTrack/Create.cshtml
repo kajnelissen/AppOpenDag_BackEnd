@@ -1,0 +1,39 @@
+﻿@model OpenDagBackEnd.Models.NavigationTrack
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@*@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)*@
+
+@using (Html.BeginForm("Create", "NavigationTrack", FormMethod.Post, new { enctype = "multipart/form-data" })){
+ @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>NavigationTrack</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.RouteId, "Route")
+        </div>
+        <div class="editor-field">
+            @Html.DropDownList("RouteId", String.Empty)
+            @Html.ValidationMessageFor(model => model.RouteId)
+        </div>
+        <div class="editor-field">
+            <input type="file" name="file" id="file" />
+        </div>
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

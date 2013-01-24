@@ -13,5 +13,7 @@ namespace OpenDagBackEnd.Models
         public int RouteId { get; set; }
 
         public NavigationRoute Route { get; set; }
+
+        public Byte[] Image { get; set; }
     }
 }

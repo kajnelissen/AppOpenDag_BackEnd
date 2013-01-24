@@ -82,10 +82,10 @@
     </Reference>
     <Reference Include="Glimpse.Core, Version=0.87.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Glimpse.0.87\lib\net40\Glimpse.Core.dll</HintPath>
+      <HintPath>D:\Tijdelijk\GitHub\20-1\AppOpenDag_BackEnd\OpenDagBackEnd\OpenDagBackEnd\bin\Glimpse.Core.dll</HintPath>
     </Reference>
     <Reference Include="Glimpse.Mvc3">
-      <HintPath>..\packages\Glimpse.Mvc3.0.87\lib\net40\Glimpse.Mvc3.dll</HintPath>
+      <HintPath>D:\Tijdelijk\GitHub\20-1\AppOpenDag_BackEnd\OpenDagBackEnd\OpenDagBackEnd\bin\Glimpse.Mvc3.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json">
@@ -188,7 +188,8 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AnswerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\NavigationController.cs" />
+    <Compile Include="Controllers\NavigationRouteController.cs" />
+    <Compile Include="Controllers\NavigationTrackController.cs" />
     <Compile Include="Controllers\QuestionController.cs" />
     <Compile Include="Controllers\StudyController.cs" />
     <Compile Include="Controllers\StudyInformationController.cs" />
@@ -376,6 +377,16 @@
     <Content Include="Views\Survey\Create.cshtml" />
     <Content Include="Views\Survey\Edit.cshtml" />
     <Content Include="Views\Survey\Delete.cshtml" />
+    <Content Include="Views\NavigationRoute\Index.cshtml" />
+    <Content Include="Views\NavigationRoute\Details.cshtml" />
+    <Content Include="Views\NavigationRoute\Create.cshtml" />
+    <Content Include="Views\NavigationRoute\Edit.cshtml" />
+    <Content Include="Views\NavigationRoute\Delete.cshtml" />
+    <Content Include="Views\NavigationTrack\Index.cshtml" />
+    <Content Include="Views\NavigationTrack\Details.cshtml" />
+    <Content Include="Views\NavigationTrack\Create.cshtml" />
+    <Content Include="Views\NavigationTrack\Edit.cshtml" />
+    <Content Include="Views\NavigationTrack\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
