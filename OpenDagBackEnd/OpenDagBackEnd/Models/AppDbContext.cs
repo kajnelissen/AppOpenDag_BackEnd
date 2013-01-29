@@ -12,8 +12,9 @@ namespace OpenDagBackEnd.Models
     public partial class AppDbContext : DbContext
     {
         public AppDbContext()
-            : base("AppDb6")
+            : base("AppDb7")
         {
+            base.Configuration.ProxyCreationEnabled = false;
             //Database.SetInitializer(new WebTe);
         }
 
