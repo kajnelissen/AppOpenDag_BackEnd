@@ -187,6 +187,11 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AnswerController.cs" />
+    <Compile Include="Controllers\api\NavigationController.cs" />
+    <Compile Include="Controllers\api\StudyController.cs" />
+    <Compile Include="Controllers\api\SurveyController.cs" />
+    <Compile Include="Controllers\api\TimeTableController.cs" />
+    <Compile Include="Controllers\api\ValuesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NavigationRouteController.cs" />
     <Compile Include="Controllers\NavigationTrackController.cs" />
