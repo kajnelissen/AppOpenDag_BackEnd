@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace API.Controllers
+namespace OpenDagBackEnd.Controllers
 {
     public class HomeController : Controller
     {
